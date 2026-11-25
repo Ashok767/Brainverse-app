@@ -1,0 +1,702 @@
+--------- beginning of main
+10-23 10:16:03.802  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:03.805  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:03.807  2496  2496 I chatty  : uid=10105(com.oppo.launcher) identical 8 lines
+10-23 10:16:03.808  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:03.808  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:03.808  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:03.811  2496  2496 I chatty  : uid=10105(com.oppo.launcher) identical 14 lines
+10-23 10:16:03.811  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:03.814  1631  4967 D InputMethodManagerService: isSecurity: attribute.packageName=com.oppo.launcher
+10-23 10:16:03.815  1631  4967 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false  isExist=false )
+10-23 10:16:03.815  1631  4967 D OplusVerificationCodeController: notifyImeAttributeChanged: 64false
+10-23 10:16:03.816  4188  4188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2404 
+10-23 10:16:03.817   833  1572 I BufferQueueProducer: [com.oppo.launcher/com.oppo.launcher.Launcher#0](this:0xb40000748448fe58,id:258,api:1,p:2496,c:833) queueBuffer: fps=0.03 dur=33507.62 max=33507.62 min=33507.62
+10-23 10:16:03.818  4188 12952 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
+10-23 10:16:03.818  4188  4188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=com.oppo.launcher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-23 10:16:03.818  4188  4188 I LatinInputMethodServiceBase: LatinInputMethodServiceBase.updateInputViewCoverNavigation():360 Update input view padding, isNavbarOverInputWindow=false, bottom inset=30
+--------- beginning of system
+10-23 10:16:03.820  1631  3145 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:03.820  4188 12954 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
+10-23 10:16:03.820  1631  3145 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:03.827  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:03.830   821   925 I libPowerHal: [perfLockRel] hdl:2279, idx:0
+10-23 10:16:03.830   821   925 I libPowerHal: [PD] scn:0 hdl:2279 hint:22 comm:mtkpower@1.0-se pid:821
+10-23 10:16:03.830   821   925 I libPowerHal: MTKPOWER_HINT_PACK_SWITCH: cpu_ctrl set cpu freq: 1800000 -1 1532000 -1
+10-23 10:16:03.830   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000, param:-1
+10-23 10:16:03.831   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:0
+10-23 10:16:03.831   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1000000 param:-1
+10-23 10:16:03.841  2064  2962 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+10-23 10:16:03.894  1631  1668 V ColorZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{67ceea7 u0 com.android.systemui/.usb.UsbDebuggingActivity t112 f} isExiting}
+10-23 10:16:03.894  1631  1668 I OplusMirageDisplayManagerService: onAnimationFinished:
+10-23 10:16:03.913  1631  1668 I ColorAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2}
+10-23 10:16:03.914  1631  1668 D WindowManager: removeChild,stack:Task{341fdf9 #112 visible=false type=standard mode=fullscreen translucent=true A=10107:com.android.systemui U=0 StackId=112 sz=0}
+10-23 10:16:03.914  1631  1668 D WindowManager: java.lang.Throwable
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.TaskDisplayArea.removeChild(TaskDisplayArea.java:366)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.TaskDisplayArea.removeChild(TaskDisplayArea.java:102)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.removeImmediately(WindowContainer.java:625)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.Task.removeImmediately(Task.java:2949)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.Task.removeIfPossible(Task.java:701)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.Task.removeChild(Task.java:1576)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.Task.removeChild(Task.java:1521)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.removeImmediately(WindowContainer.java:625)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowToken.removeImmediately(WindowToken.java:402)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeImmediately(ActivityRecord.java:3405)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeIfPossible(ActivityRecord.java:3412)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.onRemovedFromDisplay(ActivityRecord.java:3497)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeImmediately(ActivityRecord.java:3404)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeIfPossible(ActivityRecord.java:3412)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.handleCompleteDeferredRemoval(ActivityRecord.java:3418)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1079)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityStack.handleCompleteDeferredRemoval(ActivityStack.java:3754)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1079)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1079)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1079)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1079)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.DisplayContent.handleCompleteDeferredRemoval(DisplayContent.java:2964)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowContainer.handleCompleteDeferredRemoval(WindowContainer.java:1079)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace(RootWindowContainer.java:1063)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.RootWindowContainer.performSurfacePlacement(RootWindowContainer.java:851)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop(WindowSurfacePlacer.java:178)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:127)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement(WindowSurfacePlacer.java:116)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowManagerService.postWindowRemoveCleanupLocked(WindowManagerService.java:2218)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowState.removeImmediately(WindowState.java:2394)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.OppoWindowState.removeImmediately(OppoWindowState.java:100)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowState.destroySurface(WindowState.java:3572)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.destroySurfaces(ActivityRecord.java:4850)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.ActivityRecord.destroySurfaces(ActivityRecord.java:4827)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowState.onExitAnimationDone(WindowState.java:5090)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowStateAnimator.onAnimationFinished(WindowStateAnimator.java:307)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.WindowState.onAnimationFinished(WindowState.java:5535)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.-$$Lambda$dwJG8BAnLlvKNGuDY9U3-haNY4M.onAnimationFinished(Unknown Source:2)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$0$SurfaceAnimator(SurfaceAnimator.java:126)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.-$$Lambda$SurfaceAnimator$qxm0Z0Ve0b3lKnyQQMgWVQfTP3Q.run(Unknown Source:8)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.SurfaceAnimator.lambda$getFinishedCallback$1$SurfaceAnimator(SurfaceAnimator.java:136)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.-$$Lambda$SurfaceAnimator$Y4hCTFZUnyoMqrbq2rxOWj68ccg.onAnimationFinished(Unknown Source:4)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.LocalAnimationAdapter.lambda$startAnimation$0$LocalAnimationAdapter(LocalAnimationAdapter.java:56)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.wm.-$$Lambda$LocalAnimationAdapter$zbLki1x5Fhwh-g7q-dA43aw6Y4M.run(Unknown Source:6)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at android.os.Handler.handleCallback(Handler.java:938)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at android.os.Looper.loop(Looper.java:255)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+10-23 10:16:03.914  1631  1668 D WindowManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+10-23 10:16:03.920  1631  1650 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:03.920  1631  1650 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:03.921  1631  4967 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:03.921  1631  4967 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:03.926   833   833 D OppoExLayer: ~Layer() sequence=2225, name=Surface(name=Task=112)/@0xa39aa23 - animation-leash#0@0xb400007465da8000
+10-23 10:16:03.926   833   833 D OppoExLayer: ~Layer() sequence=2209, name=Task=112#0@0xb400007471ec3000
+10-23 10:16:03.926   833   833 D OppoExLayer: ~Layer() sequence=2212, name=ActivityRecord{67ceea7 u0 com.android.systemui/.usb.UsbDebuggingActivity#0@0xb40000745743f000
+10-23 10:16:03.926   833   833 D OppoExLayer: ~Layer() sequence=2227, name=Surface(name=68d111c com.android.systemui/com.android.systemui.usb.UsbDebuggingActivity)/@0x377127d - animation-leash#0@0xb400007455c84000
+10-23 10:16:03.926   833   833 D OppoExLayer: ~Layer() sequence=2213, name=68d111c com.android.systemui/com.android.systemui.usb.UsbDebuggingActivity#0@0xb4000074574ea000
+10-23 10:16:03.926   833   833 I BufferQueueConsumer: [com.android.systemui/com.android.systemui.usb.UsbDebuggingActivity#1](id:34100000112,api:0,p:-1,c:833) disconnect()
+10-23 10:16:03.926   833   833 I BufferQueue: [com.android.systemui/com.android.systemui.usb.UsbDebuggingActivity#1](this:0xb40000748455ce58,id:274,api:1,p:-1,c:-1) onDestructor()
+10-23 10:16:03.926   833   833 D OppoExLayer: ~Layer() sequence=2214, name=com.android.systemui/com.android.systemui.usb.UsbDebuggingActivity#1@0xb40000746f9ac000
+10-23 10:16:03.927  1631  1650 I InputDispatcher: Window went away: com.android.systemui/com.android.systemui.usb.UsbDebuggingActivity#1
+10-23 10:16:03.961   792   792 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:50.177692,dur:1016.39,max:185.99,min:14.32  
+10-23 10:16:04.170   804   804 W android.hardware.thermal@2.0-service.mtk: fillCpuUsages: max_core_num=8
+10-23 10:16:04.170   804   804 W android.hardware.thermal@2.0-service.mtk: fillCpuUsages end loop, size 8, cpu_num = 7, max_core_num = 8
+10-23 10:16:04.281   833  1777 I BufferQueueProducer: [NavigationBar0#0](this:0xb40000748448c658,id:5,api:1,p:2064,c:833) queueBuffer: fps=0.48 dur=33554.18 max=33304.99 min=14.15
+10-23 10:16:04.285  1631  1886 D JobScheduler.Temperature: get temperature=36.0
+10-23 10:16:04.320  1631  1892 D ORMS_CORE: T(O)
+10-23 10:16:04.320  1631  1892 D ORMS_CORE: FinalSceneAction null
+10-23 10:16:04.320  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:04.320  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: -1 -1 ,  minCpuFreq: -1 -1 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=-1, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=-1, schedBoost=-1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:04.321  1631  1892 D ORMS_CORE: package fpsgo check : write force_onoff 1
+10-23 10:16:04.321  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2280, tid:1892
+10-23 10:16:04.322   821   925 I libPowerHal: [perfLockRel] hdl:2280, idx:1
+10-23 10:16:04.322   821   925 I libPowerHal: [PD] scn:1 hdl:2280 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:04.322   821   925 I libPowerHal: system_server: cpu_ctrl set cpu freq: -1 -1 -1 -1
+10-23 10:16:05.219  1631  2500 I ColorHansManager : unfreeze uid: 10235 package: com.instagram.android reason: F-timeout scene: FastFreezerScene
+10-23 10:16:05.222  1631  2500 I ColorHansManager : unfreeze uid: 10256 package: com.google.android.apps.tachyon reason: F-timeout scene: FastFreezerScene
+10-23 10:16:05.224  1631  2500 I ColorHansManager : unfreeze uid: 10342 package: com.whatsapp reason: F-timeout scene: FastFreezerScene
+10-23 10:16:05.226  1631  2500 I ColorHansManager : exit fastfreezer, reason:F-timeout
+10-23 10:16:05.227  1631  2500 D OppoBasePowerManagerService: do restore jobs
+10-23 10:16:05.339  1631  1670 D AES     : AEEIOCTL_GET/SET_SF_STATE IOCTL,cmd= 1074294797, lParam=0. 
+10-23 10:16:05.339  1631  1670 D AES     : AEEIOCTL_RT_MON_Kick IOCTL,cmd= 2147774474, lParam=300. 
+10-23 10:16:05.227  1631  2500 I chatty  : uid=1000(system) HansManagerHand identical 1 line
+10-23 10:16:05.227  1631  2500 D OppoBasePowerManagerService: do restore jobs
+10-23 10:16:05.341  1631  1670 V OppoBaseWatchdog: @WatchDog_ error e: java.io.FileNotFoundException: /d/wakeup_sources: open failed: ENOENT (No such file or directory)
+10-23 10:16:05.345 12031 12052 I Finsky  : [4245] Stats for Executor: LightweightExecutor yhb@631b232[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 242]
+10-23 10:16:05.348 12031 12052 I Finsky  : [4245] Stats for Executor: BlockingExecutor yhb@c204b83[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 35]
+10-23 10:16:05.357 12031 12052 I Finsky  : [4245] Stats for Executor: bgExecutor yhb@b144100[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 284]
+10-23 10:16:05.413   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 10:16:05.531  9360  9505 E msys    : E[N mns:TigonMNS]onResolverSuccess(367)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+10-23 10:16:05.709  1631  2539 I ColorGameSpaceManager: in handleApplicationSwitchInner ---- gamemode = 0 ----mModeStatus = 0
+10-23 10:16:05.563  9360  9505 I chatty  : uid=10235(com.instagram.android) MNSEventLoop1 identical 4 lines
+10-23 10:16:05.573  9360  9505 E msys    : E[N mns:TigonMNS]onResolverSuccess(367)=>Cache refresh succeeded with system DNS resolver. IP count: 1
+10-23 10:16:05.718  1631  4963 D AS.AudioService: getParameters() keyValuePairs:OPLUS_AUDIO_GET_FOCUS_STACK
+10-23 10:16:05.719  4339  5254 I Athena  : MemoryGuardAction: triggerMemory:1500MB, availMemory:1760MB
+10-23 10:16:05.720  2496  2927 D Launcher.: panicValue = false
+10-23 10:16:05.739  2496  2496 W PerfettoTrace: type=1400 audit(0.0:12815): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=16330 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.oppo.launcher
+10-23 10:16:05.941   833  1777 I BufferQueueProducer: [StatusBar#0](this:0xb400007465d84c58,id:7,api:1,p:2064,c:833) queueBuffer: fps=6.51 dur=2917.49 max=2036.14 min=10.70
+10-23 10:16:05.945   792   792 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:8.569798,dur:1983.71,max:1399.74,min:15.64  
+10-23 10:16:06.041  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 10:16:06.281 12031 12069 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:06.514  1631  1631 D OppoBaseBatteryService: send broadcast : oppo.intent.action.BATTERY_DATA_UPDATE
+10-23 10:16:06.514  1631  6256 D BatteryLed: getLightInColorState, oppoLightMgr empty!
+10-23 10:16:06.519  1631  1631 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1158 com.android.server.OppoBaseBatteryService$2.run:280 android.os.Handler.handleCallback:938 android.os.Handler.dispatchMessage:99 android.os.Looper.loop:255 
+10-23 10:16:06.289 12031 12069 I chatty  : uid=10133(com.android.vending) bgExecutor #2 ( identical 1 line
+10-23 10:16:06.299 12031 12069 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:06.534  2752  2752 D BatteryStatusService: mBatteryRm < 0
+10-23 10:16:06.815  1126  1218 E VirtualSensors: pedo minute, step_count = 0, report_count = 110 move_statust = 0 ,time_gap = 0 , step_run_count = 0 , step_walk_count = 0
+10-23 10:16:06.818  2752  2752 V SensorManager: Pedometer minute step counter dispatchSensorEvent step 0.0 to + com.coloros.healthservice.c@c505256
+10-23 10:16:06.819  2752  2752 V SensorManager: Pedometer minute step counter dispatchSensorEvent step 0.0 to + com.coloros.healthservice.broadcast.a@c4386ad
+10-23 10:16:06.915   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 10:16:07.097  8231  8316 I System.out: [okhttp]:check permission begin!
+10-23 10:16:07.098  8231  8316 I System.out: [okhttp]:not MMS!
+10-23 10:16:07.098  8231  8316 I System.out: [okhttp]:not Email!
+10-23 10:16:07.138  8231  8316 I System.out: [socket]:check permission begin!
+10-23 10:16:07.183  8231  8316 I System.out: [OkHttp] sendRequest>>
+10-23 10:16:07.184  8231  8316 I System.out: [OkHttp] sendRequest<<
+10-23 10:16:07.299  1159  1864 D AALLightSensor: oldLux=5639 [SA:6566 LA:6519] newLux=5639 (oriLux: 6578)
+10-23 10:16:07.521  1631  1784 D ORMS_CORE: Set notification:  src: 1000, type: 0, p1: -1, p2: -1, p3: -1, p4: 
+10-23 10:16:07.522  1631  1784 D ORMS_CORE: Set scene action identity: inputflinger scene: , action: ORMS_ACTION_TOUCH_BOOST, timeout: 300, handle: 477566442
+10-23 10:16:07.522   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2281 hint:25 pid:821 duration:10000 => ret_hdl:2281
+10-23 10:16:07.522   821   925 I libPowerHal: [PE] scn:0 hdl:2281 hint:25 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.523   821   925 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:1
+10-23 10:16:07.524  2496  2496 D ViewRootImpl: enqueueInputEventMotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=81.0, y[0]=822.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6736863, downTime=6736863, deviceId=3, source=0x1002, displayId=0 }
+10-23 10:16:07.525  2496  2496 D ViewRootImpl[Launcher]: processMotionEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=81.0, y[0]=822.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6736863, downTime=6736863, deviceId=3, source=0x1002, displayId=0 }
+10-23 10:16:07.525  2496  2496 D FlingAndToggleTouchController: canInterceptTouch: cameFromNavBar = false, mStartState = 6
+10-23 10:16:07.526  2496  2496 D ViewRootImpl[Launcher]: dispatchPointerEvent handled=true, event=MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=81.0, y[0]=822.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6736863, downTime=6736863, deviceId=3, source=0x1002, displayId=0 }
+10-23 10:16:07.526  1631  4967 D ColorInputMethodManagerServiceEx: onHandleImeWindowVisibleStatus handledVis: 0, switcher visible: 0, switcher active: 0, needsToShowImeSwitcher: false
+10-23 10:16:07.540 20276 20992 I native  : I0000 00:00:1792730767.540601   20992 soda_impl.cc:2059] Adding hotword timeout event
+10-23 10:16:07.541 20276 20993 I fgby    : Hotword timeout event!
+10-23 10:16:07.541  1631  4967 D OppoDisplayPolicy: com.android.systemui, change system app cutoutMode: color always
+10-23 10:16:07.542 20276 20993 I fgby    : Not DEFAULT_DSP timeout event. Call the onHotwordTimeout callback.
+10-23 10:16:07.542 20276 20993 I fgeg    : (REDACTED) Hotword score : %f, Hotword model id : %s.
+10-23 10:16:07.542 20276 20993 I fgeg    : (REDACTED) Timeout reason %s, Coarse channel index %d.
+10-23 10:16:07.542 20276 20993 I ffup    : HDM. Not handling the timeoutevent with the timeout reason that is not DEFAULT_DSP for now.
+10-23 10:16:07.560   792   792 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:1.238370,dur:1615.03,max:1150.79,min:464.24  
+10-23 10:16:07.642  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:07.656  1631  1784 D ORMS_CORE: Set notification:  src: 1000, type: 1, p1: -1, p2: -1, p3: -1, p4: 
+10-23 10:16:07.656   821   925 I libPowerHal: [perfLockRel] hdl:2281, idx:0
+10-23 10:16:07.657   821   925 I libPowerHal: [PD] scn:0 hdl:2281 hint:25 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.657   821   925 I libPowerHal: [PD] MTKPOWER_HINT_APP_TOUCH update cmd:3408600 param:0
+10-23 10:16:07.658  2496  2496 D ViewRootImpl[Launcher]: processMotionEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=81.0, y[0]=822.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6736998, downTime=6736863, deviceId=3, source=0x1002, displayId=0 }
+10-23 10:16:07.659  2496  2496 D ViewRootImpl[Launcher]: dispatchPointerEvent handled=true, event=MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=81.0, y[0]=822.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, classification=NONE, metaState=0, flags=0x2, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=6736998, downTime=6736863, deviceId=3, source=0x1002, displayId=0 }
+10-23 10:16:07.663  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:07.663   833  1803 I BufferQueueProducer: [com.oppo.launcher/com.oppo.launcher.Launcher#0](this:0xb40000748448fe58,id:258,api:1,p:2496,c:833) queueBuffer: fps=0.78 dur=3845.48 max=3763.37 min=19.71
+10-23 10:16:07.669  1631  4967 D ORMS_CORE: Set scene action identity: com.android.server.wm scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 500, handle: 953712074031132358
+10-23 10:16:07.670  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:2 prio:7 start:6877429 timeout:500 timeout_left:500
+10-23 10:16:07.670  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.670  1631  1892 D ORMS_HISTORY: no limit in sa : 1000, 2
+10-23 10:16:07.670  1631  4967 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=in.ashokkumar.brainverse/.MainActivity bnds=[32,735][163,961] mCallingUid=10105} from uid 10105 and from pid 2496
+10-23 10:16:07.670  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.670  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 1532000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=-1, lpm=-1, sb=-1, prio=7, fpsgo=0, migrate= migfrate: , mask=110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.671  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 1532000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=-1, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=-1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.671  1631  4967 D MultiApp.CMAService: changeIntentIfNeed --- from launcher
+10-23 10:16:07.672  1631  1892 D ORMS_CORE: package fpsgo check : write force_onoff 0
+10-23 10:16:07.672  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2280, dur:0, num:6, tid:1892
+10-23 10:16:07.674  1631  4967 E ColorZoomWindowManagerService: onConfigurationChanged rotation not changed - prevRotation: 0
+10-23 10:16:07.674  1631  1892 I mtkpower_client: ret_hdl:2282
+10-23 10:16:07.674   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2282 hint:-1 pid:1631 duration:0 => ret_hdl:2282
+10-23 10:16:07.674   821   925 I libPowerHal: [PE] scn:0 hdl:2282 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.675   821   925 I libPowerHal: system_server: cpu_ctrl set cpu freq: 1800000 -1 1532000 -1
+10-23 10:16:07.679   821   871 I mtkpower@impl: [setMode] type:5, enabled:1
+10-23 10:16:07.680   821   925 I libPowerHal: [perfLockAcq] idx:1 hdl:2283 hint:11 pid:821 duration:30000 => ret_hdl:2283
+10-23 10:16:07.680   821   925 I libPowerHal: [PE] scn:1 hdl:2283 hint:11 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.677  1631  4967 E ColorZoomWindowManagerService: onConfigurationChanged rotation not changed - prevRotation: 0
+10-23 10:16:07.680  1631  4967 V ColorZoomWindowManagerService: windowMode: 0 ,stack: Task{a0323d9 #113 visible=true type=standard mode=fullscreen translucent=true I=in.ashokkumar.brainverse/.MainActivity U=0 StackId=113 sz=1}
+10-23 10:16:07.680   821   925 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 1800000 -1 2000000 -1
+10-23 10:16:07.680   821   925 I libPowerHal: [PE] LAUNCH update cmd:1000000, param:0
+10-23 10:16:07.680   821   925 I libPowerHal: [PE] LAUNCH update cmd:1408300, param:100
+10-23 10:16:07.681   821   925 I libPowerHal: [PE] LAUNCH update cmd:1000000 param:0
+10-23 10:16:07.682   821   925 I libPowerHal: [perfLockAcq] idx:2 hdl:2284 hint:22 pid:821 duration:10000 => ret_hdl:2284
+10-23 10:16:07.682   821   925 I libPowerHal: [PE] scn:2 hdl:2284 hint:22 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.685  2496  2496 E Launcher.DrawAppSortManagerUtil: handleAppInfoClick times=21
+10-23 10:16:07.686   821   925 I libPowerHal: [perfLockAcq] idx:3 hdl:2285 hint:21 pid:821 duration:10000 => ret_hdl:2285
+10-23 10:16:07.686   821   925 I libPowerHal: [PE] scn:3 hdl:2285 hint:21 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.686  1631  1667 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10493; state: DISABLED
+10-23 10:16:07.686   821   925 I libPowerHal: [PE] MTKPOWER_HINT_PROCESS_CREATE update cmd:1410000, param:1
+10-23 10:16:07.686  1631  1667 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10493; state: ENABLED
+10-23 10:16:07.687   821   925 I libPowerHal: [perfLockRel] hdl:2264, idx:-1
+10-23 10:16:07.687  1631  1682 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10493; state: ENABLED
+10-23 10:16:07.687  1631  4967 I ColorAccessController: enter isIgnoreAppSwitchActivity
+10-23 10:16:07.687  1631  4967 I ColorAccessController: enter isIgnoreAppSwitchActivity and intent != null
+10-23 10:16:07.687  1631  4967 I ColorAccessController: enter isIgnoreAppSwitchActivity and componentName != null
+10-23 10:16:07.687  1631  4967 I ColorAccessController: enter isIgnoreAppSwitchActivity and packageName&activity is not Empty
+10-23 10:16:07.687  1631  4967 D ORMS_CORE: Set scene action identity: com.android.server.wm scene: , action: ORMS_ACTION_ACTIVITY_RESUME, timeout: 600, handle: 3794497946827987578
+10-23 10:16:07.687  1631  4967 V SensorManager: setScreenShotDisableImpl
+10-23 10:16:07.688  1631  4967 D SensorService: debug_oplusGeminiProximity setScreenShotDisable in SensorService
+10-23 10:16:07.688  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:2 prio:7 start:6877429 timeout:500 timeout_left:482
+10-23 10:16:07.688  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.688  1631  1892 D ORMS_HISTORY: no limit in sa : 1000, 2
+10-23 10:16:07.688  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.688  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 1532000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=-1, lpm=-1, sb=-1, prio=7, fpsgo=0, migrate= migfrate: , mask=110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.688  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 1532000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=-1, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=-1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.688  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2282, tid:1892
+10-23 10:16:07.688  1631  4967 I ColorHansManager : ColorHansManager : resume pkg: in.ashokkumar.brainverse, uid:10493, prev pkg: com.oppo.launcher, prev uid: 10105
+10-23 10:16:07.688  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2282, dur:0, num:6, tid:1892
+10-23 10:16:07.688  1631  4967 D ORMS_CORE: Set scene action identity: com.android.server.wm scene: , action: ORMS_ACTION_COLD_LAUNCH, timeout: 2000, handle: 5034113533147333569
+10-23 10:16:07.689  1631  4967 V SensorManager: setScreenShotDisableImpl
+10-23 10:16:07.689  1631  4967 D SensorService: debug_oplusGeminiProximity setScreenShotDisable in SensorService
+10-23 10:16:07.689   821   925 I libPowerHal: [perfLockRel] hdl:2282, idx:0
+10-23 10:16:07.689   821   925 I libPowerHal: [PD] scn:0 hdl:2282 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.689  1631  2500 I ColorHansManager : enter fastfreezer
+10-23 10:16:07.689  1631  1892 I mtkpower_client: ret_hdl:2286
+10-23 10:16:07.689   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2286 hint:-1 pid:1631 duration:0 => ret_hdl:2286
+10-23 10:16:07.689   821   925 I libPowerHal: [PE] scn:0 hdl:2286 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.690  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:1 prio:6 start:6877449 timeout:2000 timeout_left:2000
+10-23 10:16:07.690  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.690  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.690  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 2000000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=0, lpm=0, sb=1, prio=6, fpsgo=0, migrate= migfrate: , mask=1110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.690  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 2000000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=0, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.690  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2286, tid:1892
+10-23 10:16:07.691  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2286, dur:0, num:10, tid:1892
+10-23 10:16:07.691  1631  4967 D ORMS_CORE: Set scene action identity: com.android.server.wm scene: , action: ORMS_ACTION_COLD_LAUNCH, timeout: 2000, handle: 1403340777265191869
+10-23 10:16:07.691  1631  4967 V SensorManager: setScreenShotDisableImpl
+10-23 10:16:07.691   821   925 I libPowerHal: [perfLockRel] hdl:2286, idx:0
+10-23 10:16:07.691  1631  4967 D SensorService: debug_oplusGeminiProximity setScreenShotDisable in SensorService
+10-23 10:16:07.691   821   925 I libPowerHal: [PD] scn:0 hdl:2286 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.691  1631  2500 I ColorHansManager : freeze uid: 10256 package: com.google.android.apps.tachyon reason: fastfreezer|10493 scene: FastFreezerScene
+10-23 10:16:07.691  1631  1892 I mtkpower_client: ret_hdl:2287
+10-23 10:16:07.692   821   925 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+10-23 10:16:07.692   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2287 hint:-1 pid:1631 duration:0 => ret_hdl:2287
+10-23 10:16:07.692   821   925 I libPowerHal: [PE] scn:0 hdl:2287 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.692  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:1 prio:6 start:6877449 timeout:2000 timeout_left:1998
+10-23 10:16:07.692  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.692  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.692  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 2000000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=0, lpm=0, sb=1, prio=6, fpsgo=0, migrate= migfrate: , mask=1110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.692  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 2000000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=0, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.693  1631  1892 D ORMS_HISTORY: same limit, skip
+10-23 10:16:07.693  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2287, tid:1892
+10-23 10:16:07.693  1631  2500 I ColorHansManager : freeze uid: 10342 package: com.whatsapp reason: fastfreezer|10493 scene: FastFreezerScene
+10-23 10:16:07.693  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2287, dur:0, num:10, tid:1892
+10-23 10:16:07.693   821   925 I libPowerHal: [perfLockRel] hdl:2287, idx:0
+10-23 10:16:07.693   821   925 I libPowerHal: [PD] scn:0 hdl:2287 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.694  1631  1892 I mtkpower_client: ret_hdl:2288
+10-23 10:16:07.694   821   925 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+10-23 10:16:07.694   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2288 hint:-1 pid:1631 duration:0 => ret_hdl:2288
+10-23 10:16:07.694   821   925 I libPowerHal: [PE] scn:0 hdl:2288 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.694  1631  2500 I ColorHansManager : freeze uid: 10235 package: com.instagram.android reason: fastfreezer|10493 scene: FastFreezerScene
+10-23 10:16:07.696  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:07.700   757   757 D Zygote  : Forked child process 13726
+10-23 10:16:07.701   826  6990 D AudioPolicyService: updateUidStates_l() current->uid=10134 current->pid=20276 allowCapture=1 UidState=5 apmStat=1
+10-23 10:16:07.701   833   942 I SurfaceFlinger: [SF client] NEW(0xb400007465fd30c0) for (1631:system_server)
+10-23 10:16:07.703  1631  1668 D ColorViewRootUtil: initSwipState, isDisplayCompatApp false
+10-23 10:16:07.703  1631  1668 D ColorViewRootUtil: mScreenHeight 1600, mScreenWidth 720
+10-23 10:16:07.703  1631  1682 I ActivityManager: Start proc 13726:in.ashokkumar.brainverse/u0a493 for pre-top-activity {in.ashokkumar.brainverse/in.ashokkumar.brainverse.MainActivity}
+10-23 10:16:07.703  1631  1668 D ViewRootImpl[brainverse]: hardware acceleration = false , fakeHwAccelerated = true, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+10-23 10:16:07.704  1631  1668 D OppoDisplayPolicy: in.ashokkumar.brainverse, no change cutoutMode: 0
+10-23 10:16:07.706  1631  1668 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 10:16:07.706  1631  1668 I chatty  : uid=1000(system) android.anim identical 4 lines
+10-23 10:16:07.706  1631  1668 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 10:16:07.706  1631  1668 I InputTransport: Create ARC handle: 0xb400006f0036a2e0
+10-23 10:16:07.708  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 10:16:07.710  1631  1650 I InputDispatcher: Focus left window: Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher} in display 0
+10-23 10:16:07.710 13726 13726 E umar.brainvers: Unknown bits set in runtime_flags: 0x40000000
+10-23 10:16:07.710  1631  1650 I InputDispatcher: Window went away: Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher}
+10-23 10:16:07.712  1631  1668 D OppoDisplayPolicy: in.ashokkumar.brainverse, no change cutoutMode: 0
+10-23 10:16:07.713 13726 13726 E umar.brainvers: Not starting debugger since process cannot load the jdwp agent.
+10-23 10:16:07.713   833   942 I BufferQueueConsumer: [](id:34100000113,api:0,p:-1,c:833) connect(): controlledByApp=false
+10-23 10:16:07.714   833   942 I BufferQueue: [unnamed-833-275](this:0xb400007452ad1258,id:275,api:0,p:-1,c:-1) BufferQueue core=(833:/system/bin/surfaceflinger)
+10-23 10:16:07.715  1631  1668 D WindowManager: WARNING: focused app window can't receive keys, focusedApp:ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2} window:Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher}
+10-23 10:16:07.715  1631  1668 D WindowManager: isRecentsAnimationConsumingAppInput:false isParentWindowHidden:false mAnimatingExit:false mRelayoutCalled:true
+10-23 10:16:07.716  1631  1668 W WindowManager: Changing focus fromWindow{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:497 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6041 com.android.server.wm.WindowManagerService.relayoutWindow:2687 com.android.server.wm.Session.relayout:229 
+10-23 10:16:07.717  1631  1668 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+10-23 10:16:07.718  1631  1668 V OplusZoomWindowDecorViewHelper: setLastReportedMergedConfiguration mZoomDisplayHeight: 1600 getDecorView.DecorView@6c9fe5f[brainverse]
+10-23 10:16:07.718 13726 13726 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 10:16:07.719  1631  1668 D Surface : lockCanvas
+10-23 10:16:07.719   833   942 I BufferQueueProducer: [Splash Screen in.ashokkumar.brainverse#0](id:34100000113,api:2,p:1631,c:833) connect(): api=2 producerControlledByApp=false
+10-23 10:16:07.721  1631  1650 V ActivityManager: New death recipient com.android.server.am.ActivityManagerService$AppDeathRecipient@bfc70ac for thread android.os.BinderProxy@5d89175
+10-23 10:16:07.725  3343  3365 E horae   : Entering notifyCallback, binder clients size 2
+10-23 10:16:07.725  3343  3366 E horae   : 0: back:37000,frame:37000,front:37000, 5, +(0), 1 ,37000
+10-23 10:16:07.729   833   942 D DispPerfService: onframeavailable pid=1631, slot=0, seq=2231, name=system_server:Splash Screen in.ashokkumar.brainverse#0
+10-23 10:16:07.731  1631  1650 D ORMS_CORE: Set scene action identity: com.android.server.wm scene: in.ashokkumar.brainverse, action: ORMS_ACTION_LAUNCH, timeout: 600, handle: 786683286294433164
+10-23 10:16:07.731  1631  1650 I ColorAppSwitchManagerService: appswitch hasProcess ActivityRecord{76dfe20 u0 in.ashokkumar.brainverse/.MainActivity t113}
+10-23 10:16:07.731  1631  1892 D ORMS_CORE: FG app changed to: in.ashokkumar.brainverse
+10-23 10:16:07.731  1631  1650 I ColorAppSwitchManagerService: appswitch hasProcess ActivityRecord{76dfe20 u0 in.ashokkumar.brainverse/.MainActivity t113}
+10-23 10:16:07.731  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:0 prio:5 start:6877490 timeout:2000 timeout_left:2000
+10-23 10:16:07.731  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.731  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.731  3343  3365 E horae   : Notify thermal status: 6
+10-23 10:16:07.731  1631  1650 I InputDispatcher: setFocusedApplication displayId=0 <invalid>
+10-23 10:16:07.731  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 2000000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=0, lpm=0, sb=1, prio=5, fpsgo=0, migrate= migfrate: , mask=1110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.731  2752  5975 W OppoGuardElf: ThermalControlUtils: setHighTempSafetyState same.
+10-23 10:16:07.731  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 2000000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=0, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.731  1631  2608 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit , info = OplusAppExitInfo = {  targetName = com.oppo.launcher hasResumingActivity = true resumingPackageName = in.ashokkumar.brainverse resumingActivityName = in.ashokkumar.brainverse.MainActivity resumingWindowMode = 1 isResumingMultiApp = false isResumingFirstStart = true extension = Bundle[{taskId=113, uid=10493}]}
+10-23 10:16:07.731   821   925 I libPowerHal: [perfNotifyAppState] foreground:in.ashokkumar.brainverse, pid:13726, uid:10493
+10-23 10:16:07.731  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2288, tid:1892
+10-23 10:16:07.731  1631  6744 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = com.oppo.launcher to = in.ashokkumar.brainverse
+10-23 10:16:07.732  2752  5975 W OppoGuardElf: ThermalControlUtils: get temperature=37.0
+10-23 10:16:07.732  2752  5975 W OppoGuardElf: ThermalControllHandler: MSG_THERMAL_CONTROL_TEMPGEAR_CHANGED,tempLevel=6
+10-23 10:16:07.732  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2288, dur:0, num:10, tid:1892
+10-23 10:16:07.732   821   925 E UxUtility: notifyAppState error = NULL
+10-23 10:16:07.732   821   925 I TouchUtility: notifyAppState error = NULL
+10-23 10:16:07.732   821   925 I libPowerHal: [PD] scn:299 pack:com.oppo.launcher
+10-23 10:16:07.732   821   925 I libPowerHal: [PD] com.oppo.launcher update cmd:203c000 param:25
+10-23 10:16:07.732   821   925 I libPowerHal: [PD] com.oppo.launcher update cmd:203c100 param:33
+10-23 10:16:07.732   821   925 I libPowerHal: [PD] com.oppo.launcher update cmd:203c200 param:0
+10-23 10:16:07.732   821   925 I libPowerHal: [PD] com.oppo.launcher update cmd:200c000 param:0
+10-23 10:16:07.733   821   925 I libPowerHal: [PD] com.oppo.launcher update cmd:200c100 param:10
+10-23 10:16:07.733   821   870 I mtkpower@impl: [notifyAppState] pc:1, com.oppo.launcher => in.ashokkumar.brainverse
+10-23 10:16:07.733   821   925 I libPowerHal: [perfLockRel] hdl:2288, idx:0
+10-23 10:16:07.733   821   925 I libPowerHal: [PD] scn:0 hdl:2288 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.733  2752  8931 W OppoGuardElf: ThermalControlUtils: mForegroundPkg=in.ashokkumar.brainverse
+10-23 10:16:07.733  1631  2608 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter , info = OplusAppEnterInfo = {  windowMode = 1 targetName = in.ashokkumar.brainverse multiApp = false firstStart = true launchedFromPackage = com.oppo.launcher intent = Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=in.ashokkumar.brainverse/.MainActivity bnds=[32,735][163,961] mCallingUid=10105 } extension = Bundle[{taskId=113, uid=10493}]}
+10-23 10:16:07.734  2508  2634 I [0]DCS-BackgroundAppData: sendAppBgEvent: has no pkgName=in.ashokkumar.brainverse
+10-23 10:16:07.734  1631  1892 I mtkpower_client: ret_hdl:2289
+10-23 10:16:07.734  3153 31563 D ZoomAppController: ignore onAppEnter: Invalid cvActionFlag = 0
+10-23 10:16:07.735 13726 13726 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusScreenModeFeature
+10-23 10:16:07.735   821   925 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+10-23 10:16:07.735   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2289 hint:-1 pid:1631 duration:0 => ret_hdl:2289
+10-23 10:16:07.735   821   925 I libPowerHal: [PE] scn:0 hdl:2289 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.735 13726 13726 I oplus.android.OplusFrameworkFactoryImpl: getOplusScreenModeFeature
+10-23 10:16:07.739  3351  3351 D oiface  : Horae Thermal status: [6]
+10-23 10:16:07.739  1631  1650 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+10-23 10:16:07.739  3343  3365 E horae   : Notify thermal status: 6
+10-23 10:16:07.740  4382  4450 D RemoteGameSpaceService: onThermalStatusChanged status:6
+10-23 10:16:07.741  4382  4450 I loros.gamespac: oneway function results will be dropped but finished with status OK and parcel size 4
+10-23 10:16:07.744  1631  4963 I InputDispatcher: Window went away: Splash Screen in.ashokkumar.brainverse#0
+10-23 10:16:07.746  1987  2003 D OplusCoreAppService: isPackageContainsOplusCertificates be called
+10-23 10:16:07.749  2496  2496 E SimulationInteractor: tryGetAnimationPainterInstance error:com.coloros.painteranimationpanel.api.AnimPainterInstance
+10-23 10:16:07.750  1631  1667 D OomAdjuster: TOP_APP is ProcessRecord{a84dc4c 13726:in.ashokkumar.brainverse/u0a493} uid is 10493
+10-23 10:16:07.750  2496  2496 D IconConfigParser: parseConfig::icon config =: IconConfig = [ isForeign : true,theme : 2,iconSize : 5000,iconShape : 0,foregroundSize : 5000,artPlusOn : 0,iconRadius ???36,darkModeIcon:1 ]
+10-23 10:16:07.751  2496  2496 D IconConfigParser: parseConfig::icon config =: IconConfig = [ isForeign : true,theme : 2,iconSize : 5000,iconShape : 0,foregroundSize : 5000,artPlusOn : 0,iconRadius ???36,darkModeIcon:1 ]
+10-23 10:16:07.753   833  1777 E SurfaceFlinger: Permission Denial: can't access SurfaceFlinger pid=0, uid=10105
+10-23 10:16:07.753   833  1777 I surfaceflinger: oneway function results will be dropped but finished with status PERMISSION_DENIED and parcel size 0
+10-23 10:16:07.753  1631  4973 D ORMS_CORE: Set scene action identity: com.coloros.quickstep.utils scene: in.ashokkumar.brainverse, action: ORMS_ACTION_LAUNCHER_OPEN_APP_ANIMATION, timeout: 1000, handle: 1594502849806670930
+10-23 10:16:07.754  4188  4188 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@91dbee7, this = DecorView@f7eda94[InputMethod]
+10-23 10:16:07.755   826  2414 D AudioPolicyService: updateUidStates_l() current->uid=10134 current->pid=20276 allowCapture=1 UidState=5 apmStat=1
+10-23 10:16:07.755   826  2414 D AudioPolicyService: updateUidStates_l() current->uid=10134 current->pid=20276 allowCapture=1 UidState=5 apmStat=1
+10-23 10:16:07.759  1631  3145 D AS.AudioService: getParameters() keyValuePairs:OPLUS_AUDIO_GET_FOCUS_STACK
+10-23 10:16:07.759  2752  5975 W OppoGuardElf: ThermalControllHandler: tempLevel=6,userMode=2,gameUserMode=-1,appType=-1,envTempType=0,appStates=[]
+10-23 10:16:07.760   833   833 D OppoExLayer: ~Layer() sequence=2223, name=Surface(name=4ae1e8d StatusBar)/@0x8f34ec5 - animation-leash#1@0xb400007465d35000
+10-23 10:16:07.760   833   833 D OppoExLayer: ~Layer() sequence=2224, name=Surface(name=99f172f NavigationBar0)/@0x2f6c01a - animation-leash#1@0xb400007465d70000
+10-23 10:16:07.762  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is true
+10-23 10:16:07.763  3351  3351 E oiface  : packageSwitch pkg in.ashokkumar.brainverse, enter
+10-23 10:16:07.763  3351  3351 E oiface  : current package is in.ashokkumar.brainverse and pid is 13726
+10-23 10:16:07.764  2752  5975 W OppoGuardElf: ThermalControllHandler: tempGear=6,configItemName=common_config
+10-23 10:16:07.774  3351  3375 E oiface  : Average freq 1031478 for 4s.
+10-23 10:16:07.774  3351  3375 E oiface  : Average freq 832844 for 3s.
+10-23 10:16:07.774  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 10:16:07.774  1631  4973 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 10:16:07.774  3351  3375 E oiface  : get gpu freq table failed
+10-23 10:16:07.777  3351  3375 E oiface  : client  not found, skipped
+10-23 10:16:07.777  3351  3375 D oiface  : forground package is in.ashokkumar.brainverse
+10-23 10:16:07.782   833   833 I BufferQueueProducer: [FramebufferSurface](this:0xb40000746f82ded0,id:-1,api:1,p:833,c:833) queueBuffer: fps=4.82 dur=4768.49 max=4402.20 min=14.85
+10-23 10:16:07.783  1631  4973 D ORMS_CORE: Set notification:  src: 4, type: 0, p1: 0, p2: 37, p3: 6, p4: com.oppo.launcher
+10-23 10:16:07.783   833  1777 W DispPerfService: set app fps fail: wrong req fps value.
+10-23 10:16:07.783  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:0 prio:5 start:6877490 timeout:2000 timeout_left:1948
+10-23 10:16:07.783  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.783  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.783  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 2000000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=0, lpm=0, sb=1, prio=5, fpsgo=0, migrate= migfrate: , mask=1110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.783  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 2000000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=0, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.783  1631  1892 D ORMS_HISTORY: same limit, skip
+10-23 10:16:07.783  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2289, tid:1892
+10-23 10:16:07.784  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2289, dur:0, num:10, tid:1892
+10-23 10:16:07.784   821   925 I libPowerHal: [perfLockRel] hdl:2289, idx:0
+10-23 10:16:07.784   821   925 I libPowerHal: [PD] scn:0 hdl:2289 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.785  1631  1892 I mtkpower_client: ret_hdl:2290
+10-23 10:16:07.785   821   925 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+10-23 10:16:07.785   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2290 hint:-1 pid:1631 duration:0 => ret_hdl:2290
+10-23 10:16:07.785   821   925 I libPowerHal: [PE] scn:0 hdl:2290 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.788  1631  1650 D AS.AudioService: getParameters() keyValuePairs:OPLUS_AUDIO_GET_FOCUS_STACK
+10-23 10:16:07.789  2752  8931 W OppoGuardElf: ThermalControllHandler: tempLevel=6,userMode=2,gameUserMode=-1,appType=-1,envTempType=0,appStates=[]
+10-23 10:16:07.791  2752  8931 W OppoGuardElf: ThermalControllHandler: tempGear=6,configItemName=common_config
+10-23 10:16:07.791  2752  5975 W OppoGuardElf: ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+10-23 10:16:07.792  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 10:16:07.792  1631  4753 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 10:16:07.793  3351  3375 E oiface  : get gpu freq table failed
+10-23 10:16:07.795  1631  4973 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:07.795  1631  4973 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:07.795 13726 13726 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-23 10:16:07.863  1631  4753 D ORMS_CORE: Set scene action identity: android.app scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 1458397694128101597
+10-23 10:16:07.863  1631  1892 D ORMS_CORE: FinalSceneAction scene:1000 action:0 prio:5 start:6877490 timeout:2000 timeout_left:1868
+10-23 10:16:07.863  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.863  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.863  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 2000000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=0, lpm=0, sb=1, prio=5, fpsgo=0, migrate= migfrate: , mask=1110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.863  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 2000000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=0, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.863  1631  1892 D ORMS_HISTORY: same limit, skip
+10-23 10:16:07.795 13726 13726 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+10-23 10:16:07.863  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2290, tid:1892
+10-23 10:16:07.864  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2290, dur:0, num:10, tid:1892
+10-23 10:16:07.864   821   925 I libPowerHal: [perfLockRel] hdl:2290, idx:0
+10-23 10:16:07.864   821   925 I libPowerHal: [PD] scn:0 hdl:2290 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.865  1631  1892 I mtkpower_client: ret_hdl:2291
+10-23 10:16:07.865   821   925 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+10-23 10:16:07.865   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2291 hint:-1 pid:1631 duration:0 => ret_hdl:2291
+10-23 10:16:07.865   821   925 I libPowerHal: [PE] scn:0 hdl:2291 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.869 13726 13751 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 10:16:07.872 13726 13726 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: FATAL EXCEPTION: main
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: Process: in.ashokkumar.brainverse, PID: 13726
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{in.ashokkumar.brainverse/in.ashokkumar.brainverse.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/lib/arm64, /data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]]
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3643)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3903)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2328)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:255)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8212)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/lib/arm64, /data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]]
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3631)
+10-23 10:16:07.873 13726 13726 E AndroidRuntime: 	... 11 more
+10-23 10:16:07.874  1631  2495 D ColorAppStartupMonitor: notifyUnstableAppInfo: Bundle[{unstableTime=1792730767874, reason=crash, userId=0, safecenter=unstable, exceptionMsg=Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/lib/arm64, /data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]], exceptionClass=java.lang.ClassNotFoundException, packageName=in.ashokkumar.brainverse}]
+10-23 10:16:07.875   821   925 I libPowerHal: [perfNotifyAppState] pack:in.ashokkumar.brainverse, pid:13726, STATE_DEAD
+10-23 10:16:07.875   821   925 D RilUtility: notify_rild_crash_pid_set certPid:-1, crash:13726, scn:0x0
+10-23 10:16:07.875  2752  3231 D StartupManager: onUpdateUnstableRecord: unstable crash!
+10-23 10:16:07.875  2752  3231 D StartupManager: onSysStateChanged: Bundle[{unstableTime=1792730767874, reason=crash, userId=0, safecenter=unstable, exceptionMsg=Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk"],nativeLibraryDirectories=[/data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/lib/arm64, /data/app/~~_Nnfcq-Bo1kgnnMO_wsmlg==/in.ashokkumar.brainverse-B5Obg7TREo1HeFu06vnBfQ==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]], exceptionClass=java.lang.ClassNotFoundException, packageName=in.ashokkumar.brainverse}]
+10-23 10:16:07.875  1631  1650 D OplusAmsUtilsFeatrue: detectExceptionsForOIDT type:0
+10-23 10:16:07.879  1631  1650 W ActivityTaskManager:   Force finishing activity in.ashokkumar.brainverse/.MainActivity
+10-23 10:16:07.880  1631  1650 D ORMS_CORE: Set scene action identity: com.android.server.wm scene: com.oppo.launcher, action: ORMS_ACTION_LAUNCH, timeout: 30, handle: 1989046697335669333
+10-23 10:16:07.881  1631  1892 D ORMS_CORE: FG app changed to: com.oppo.launcher
+10-23 10:16:07.881  1631  1892 D ORMS_CORE: FinalSceneAction scene:1007 action:0 prio:5 start:6877640 timeout:30 timeout_left:30
+10-23 10:16:07.881  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.881  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.881  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 2000000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=0, lpm=0, sb=1, prio=5, fpsgo=0, migrate= migfrate: , mask=1110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.881  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 2000000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=0, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.881  1631  1650 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2}
+10-23 10:16:07.882  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2291, tid:1892
+10-23 10:16:07.882  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2291, dur:0, num:10, tid:1892
+10-23 10:16:07.882  1631  1650 D WindowManager: WARNING: focused app window can't receive keys, focusedApp:ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2} window:Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher}
+10-23 10:16:07.882  1631  1650 D WindowManager: isRecentsAnimationConsumingAppInput:false isParentWindowHidden:false mAnimatingExit:false mRelayoutCalled:true
+10-23 10:16:07.882   821   925 I libPowerHal: [perfLockRel] hdl:2291, idx:0
+10-23 10:16:07.882   821   925 I libPowerHal: [PD] scn:0 hdl:2291 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.882  1631  1650 V ColorZoomWindowManagerService: prepareZoomTransition: curStack=Task{a0323d9 #113 visible=true type=standard mode=fullscreen translucent=true I=in.ashokkumar.brainverse/.MainActivity U=0 StackId=113 sz=1}   nextStackTask{8d46d8 #1 visible=true type=home mode=fullscreen translucent=true ?? U=0 StackId=1 sz=1}
+10-23 10:16:07.883  1631  1892 I mtkpower_client: ret_hdl:2292
+10-23 10:16:07.883   821   925 I libPowerHal: cmdSetting - unknown cmd:1c3c000, scmd:(null) ,param_1:0
+10-23 10:16:07.883   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2292 hint:-1 pid:1631 duration:0 => ret_hdl:2292
+10-23 10:16:07.883   821   925 I libPowerHal: [PE] scn:0 hdl:2292 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.893   833   833 D OppoExLayer: ~Layer() sequence=2237, name=Screenshot Parent@0xb400007465d70000
+10-23 10:16:07.896   821   925 I libPowerHal: [perfLockAcq] idx:4 hdl:2293 hint:22 pid:821 duration:10000 => ret_hdl:2293
+10-23 10:16:07.896   821   925 I libPowerHal: [PE] scn:4 hdl:2293 hint:22 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.896   821   925 I libPowerHal: [perfLockRel] hdl:2284, idx:2
+10-23 10:16:07.896   821   925 I libPowerHal: [PD] scn:2 hdl:2284 hint:22 comm:mtkpower@1.0-se pid:821
+10-23 10:16:07.902  1631  4753 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:07.902  1631  4753 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:07.902 13726 13726 I Process : Sending signal. PID: 13726 SIG: 9
+10-23 10:16:07.913  1631  1892 D ORMS_CORE: T(O)
+10-23 10:16:07.913  1631  1892 D ORMS_CORE: FinalSceneAction null
+10-23 10:16:07.913  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.913  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: -1 -1 ,  minCpuFreq: -1 -1 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=-1, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=-1, schedBoost=-1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.914  1631  1892 D ORMS_CORE: package fpsgo check : write force_onoff 1
+10-23 10:16:07.914  1631  1892 I mtkpower_client: perf_lock_rel, hdl:2292, tid:1892
+10-23 10:16:07.915   821   925 I libPowerHal: [perfLockRel] hdl:2292, idx:0
+10-23 10:16:07.915   821   925 I libPowerHal: [PD] scn:0 hdl:2292 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.919  1631  1650 D DisplayManagerService: Display listener for pid 13726 died.
+10-23 10:16:07.919  1631  4753 V ActivityManager: Death received in com.android.server.am.ActivityManagerService$AppDeathRecipient@bfc70ac for thread android.os.BinderProxy@5d89175
+10-23 10:16:07.919   757   757 I Zygote  : Process 13726 exited due to signal 9 (Killed)
+10-23 10:16:07.920  1631  1683 I libprocessgroup: Successfully killed process cgroup uid 10493 pid 13726 in 0ms
+10-23 10:16:07.920  1631 16872 D TheiaSocketClient: TheiaSend receive content : 4298113028:ApplicationFGCrash:1792730767920
+10-23 10:16:07.920  1631  4753 D TheiaCrashMonitor: in.ashokkumar.brainversecrash
+10-23 10:16:07.920  1631  4753 I ActivityManager: Process in.ashokkumar.brainverse (pid 13726) has died: fg  TOP 
+10-23 10:16:07.920  1631 16872 D TheiaSocketClient: send message success
+10-23 10:16:07.920  1249 16976 I theia_socket: recv 4298113028:ApplicationFGCrash:1792730767920
+10-23 10:16:07.921  1631  4753 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcast:1143 com.android.server.am.OppoExtraActivityManagerService.setKeyLockModeNormal:51 com.android.server.am.ActivityManagerService.appDiedLocked:4328 com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied:1782 android.os.IBinder$DeathRecipient.binderDied:305 
+10-23 10:16:07.921  1249 16976 I theia_socket: nowEvent is not KeyEvent
+10-23 10:16:07.921  1631  2563 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1701 com.oplus.util.OplusStatisticsImpl.startService:216 com.oplus.util.OplusStatisticsImpl.sendDataToDCS:192 com.oplus.util.OplusStatisticsImpl.onCommonSync:84 com.oplus.util.OplusStatisticsImpl$1.run:124 
+10-23 10:16:07.923   821   925 I libPowerHal: [perfNotifyAppState] pack:in.ashokkumar.brainverse, pid:13726, STATE_DEAD
+10-23 10:16:07.923   821   925 D RilUtility: notify_rild_crash_pid_set certPid:-1, crash:13726, scn:0x0
+10-23 10:16:07.923  1631  4753 D WindowManager: WARNING: focused app window can't receive keys, focusedApp:ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2} window:Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher}
+10-23 10:16:07.923  1631  4753 D WindowManager: isRecentsAnimationConsumingAppInput:false isParentWindowHidden:false mAnimatingExit:false mRelayoutCalled:true
+10-23 10:16:07.928  1631  4967 I InputDispatcher: Window went away: Window{28b82b9 u0 Splash Screen in.ashokkumar.brainverse}
+10-23 10:16:07.928  1631  4753 D WindowManager: WARNING: focused app window can't receive keys, focusedApp:ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2} window:Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher}
+10-23 10:16:07.928  1631  4753 D WindowManager: isRecentsAnimationConsumingAppInput:false isParentWindowHidden:false mAnimatingExit:false mRelayoutCalled:true
+10-23 10:16:07.929  1631  4753 D WindowManager: removeChild,stack:Task{a0323d9 #113 visible=true type=standard mode=fullscreen translucent=true I=in.ashokkumar.brainverse/.MainActivity U=0 StackId=113 sz=0}
+10-23 10:16:07.929  1631  4753 D WindowManager: java.lang.Throwable
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.TaskDisplayArea.removeChild(TaskDisplayArea.java:366)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.TaskDisplayArea.removeChild(TaskDisplayArea.java:102)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.WindowContainer.removeImmediately(WindowContainer.java:625)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.Task.removeImmediately(Task.java:2949)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.Task.removeIfPossible(Task.java:701)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.Task.removeChild(Task.java:1576)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.Task.removeChild(Task.java:1521)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.WindowContainer.removeImmediately(WindowContainer.java:625)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.WindowToken.removeImmediately(WindowToken.java:402)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeImmediately(ActivityRecord.java:3405)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeIfPossible(ActivityRecord.java:3412)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityRecord.onRemovedFromDisplay(ActivityRecord.java:3497)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.DisplayContent.removeAppToken(DisplayContent.java:1304)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeAppTokenFromDisplay(ActivityRecord.java:2171)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityRecord.removeFromHistory(ActivityRecord.java:3194)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityStack$RemoveHistoryRecordsForApp.processActivity(ActivityStack.java:578)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityStack$RemoveHistoryRecordsForApp.process(ActivityStack.java:488)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityStack.handleAppDied(ActivityStack.java:3155)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.RootWindowContainer.handleAppDied(RootWindowContainer.java:3368)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.wm.ActivityTaskManagerService$LocalService.handleAppDied(ActivityTaskManagerService.java:7164)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:4163)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.am.ActivityManagerService.appDiedLocked(ActivityManagerService.java:4351)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(ActivityManagerService.java:1782)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at android.os.IBinder$DeathRecipient.binderDied(IBinder.java:305)
+10-23 10:16:07.929  1631  4753 D WindowManager: 	at android.os.BinderProxy.sendDeathNotice(BinderProxy.java:687)
+10-23 10:16:07.931  1631  4753 I ColorAccessController: enter isIgnoreAppSwitchActivity
+10-23 10:16:07.931  1631  4753 I ColorAccessController: enter isIgnoreAppSwitchActivity and intent != null
+10-23 10:16:07.931  1631  4753 I ColorAccessController: enter isIgnoreAppSwitchActivity and componentName != null
+10-23 10:16:07.931  1631  4753 I ColorAccessController: enter isIgnoreAppSwitchActivity and packageName&activity is not Empty
+10-23 10:16:07.932  1631  4753 I ColorHansManager : ColorHansManager : resume pkg: com.oppo.launcher, uid:10105, prev pkg: in.ashokkumar.brainverse, prev uid: 10493
+10-23 10:16:07.936  1631  4967 D ORMS_CORE: Set scene action identity: com.coloros.quickstep.utils scene: , action: ORMS_ACTION_ACTIVITY_START, timeout: 600, handle: 9073639531166366787
+10-23 10:16:07.936  1631  1892 D ORMS_CORE: FinalSceneAction scene:1007 action:2 prio:7 start:6877695 timeout:600 timeout_left:600
+10-23 10:16:07.936  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:07.936  1631  1892 D ORMS_HISTORY: setSoCLimit sa
+10-23 10:16:07.936  1631  1892 D ORMS_HISTORY: no limit in sa : 1007, 2
+10-23 10:16:07.936  1631  1892 D ORMS_CORE: TCpuL:-1 TGpuL:-1 TCtrlL:-1 TModeOn:0 IdleS:0 PowerMode:NORMAL_MODE BenchMark:0 HaveCtrlD:0
+10-23 10:16:07.936  1631  1892 D ORMS_CORE: saConfig:,SAResult Info{minCore=[6, 2, -1]minFreq=[1800000, 1532000, -1]maxCore=[-1, -1, -1]maxFreq=[-1, -1, -1], ddr=-1, lpm=-1, sb=-1, prio=7, fpsgo=0, migrate= migfrate: , mask=110, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, nice=0, extActId=-1, extTime=-1, hardLevel=0}
+10-23 10:16:07.936  1631  1892 D ORMS_CORE: request mDecision:SAResult Info{ minCpuCore: 6 2 ,  minCpuFreq: 1800000 1532000 ,  maxCpuCore: -1 -1 ,  maxCpuFreq: -1 -1 ,  minGpuCore: -1 ,  minGpuFreq: -1 ,  maxGpuCore: -1 ,  maxGpuFreq: -1 , Lpm=-1, clkscale=-1, schedwinstats=-1, twinpolicy=-1, fgwinpolicy=-1, bgwinpolicy=-1, schedPreferSpread=-1, colocate=-1, slb=-1, fpsgo=0, schedBoost=-1, ddrFreq=-1, migrate= migfrate: -1 -1 , hardLevel=false}
+10-23 10:16:07.937  1631  1892 D ORMS_CORE: package fpsgo check : write force_onoff 0
+10-23 10:16:07.937  1631  1892 I mtkpower_client: perf_lock_acq, hdl:2292, dur:0, num:6, tid:1892
+10-23 10:16:07.937  1631 13752 W ProcessCpuTracker: Failed to stat(/proc/13726): android.system.ErrnoException: stat failed: ENOENT (No such file or directory)
+10-23 10:16:07.938  1631  1892 I mtkpower_client: ret_hdl:2294
+10-23 10:16:07.938   821   925 I libPowerHal: [perfLockAcq] idx:0 hdl:2294 hint:-1 pid:1631 duration:0 => ret_hdl:2294
+10-23 10:16:07.938   821   925 I libPowerHal: [PE] scn:0 hdl:2294 lock_user:system_server pid:1631 tid:1892 dur:0
+10-23 10:16:07.940  1631 13752 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+10-23 10:16:07.944   833   833 D OppoExLayer: ~Layer() sequence=2228, name=Task=113#0@0xb400007455cad000
+10-23 10:16:07.944   833   833 D OppoExLayer: ~Layer() sequence=2229, name=ActivityRecord{76dfe20 u0 in.ashokkumar.brainverse/.MainActivity#0@0xb400007465db3000
+10-23 10:16:07.944   833   833 D OppoExLayer: ~Layer() sequence=2230, name=28b82b9 Splash Screen in.ashokkumar.brainverse#0@0xb400007455c87000
+10-23 10:16:07.946  1631  4967 D NeuronSystem: iconApp size79 topK 18
+10-23 10:16:07.946  1631  1668 D View    : [Warning] assignParent to null: this = DecorView@6c9fe5f[brainverse]
+10-23 10:16:07.946  1631  4753 D OomAdjuster: TOP_APP is ProcessRecord{4932a59 2496:com.oppo.launcher/u0a105} uid is 10105
+10-23 10:16:07.946  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 10:16:07.948   833  1803 I BufferQueueProducer: [Splash Screen in.ashokkumar.brainverse#0](id:34100000113,api:2,p:1631,c:833) disconnect(): api=2
+10-23 10:16:07.948  1631  1668 W WindowManager: Failed looking up window session=Session{f4d942c 1631:1000} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:5904 com.android.server.wm.WindowManagerService.removeWindow:2134 com.android.server.wm.Session.remove:201 
+10-23 10:16:07.948  1631  1668 I InputTransport: Destroy ARC handle: 0xb400006f0036a2e0
+10-23 10:16:07.949  4429 17144 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1701 android.content.ContextWrapper.startService:730 com.b.a.a.c.b.a:206 com.b.a.a.c.b.a:133 com.b.a.a.a.c.a:14 
+10-23 10:16:07.950  1631  1631 I OppoPhoneWindowManager: KeyLockModeReceiver KeyLockMode: 0 ProcessName: in.ashokkumar.brainverse
+10-23 10:16:07.950  1631  1665 I ColorHansManager : uid: 10493, state: F -> D
+10-23 10:16:07.952   826  6990 D AudioPolicyService: updateUidStates_l() current->uid=10134 current->pid=20276 allowCapture=1 UidState=5 apmStat=1
+10-23 10:16:07.953  1631 13752 I ColorEapManager: UserId of entry: 0
+10-23 10:16:07.954  2508  2634 I [0]DCS-StrategyManager: isNeedUpload: false, appID: 20120, logTag: CriticalLog, eventID: Theia
+10-23 10:16:07.956  1631 13752 D ColorEapUtils: diffDay: 0
+10-23 10:16:07.956  2508  2634 I [0]DCS-StrategyManager: isNeedUpload: true, appID: 30060, logTag: anr_crash_stats, eventID: eap_anr_crash
+10-23 10:16:07.956  1631 13752 D ColorEapUtils: mCrashInfoMap: 5
+10-23 10:16:07.956  1631 13752 D ColorEapUtils: collectFile: in.ashokkumar.brainverse, 260b0d54d8e443c6, data_app_crash
+10-23 10:16:07.957  1631 13752 D ColorEapUtils: copyFile /data/system/dropbox/data_app_crash@1792730767953.txt.gz to /data/oppo/coloros/eap/260b0d54d8e443c6/data_app_crash@1792730767953.txt.gz
+10-23 10:16:07.958  1631 13752 D ColorEapUtils: collect kernel log
+10-23 10:16:07.960   833   833 I BufferQueueConsumer: [Splash Screen in.ashokkumar.brainverse#0](id:34100000113,api:0,p:-1,c:833) disconnect()
+10-23 10:16:07.960   833   833 I BufferQueue: [Splash Screen in.ashokkumar.brainverse#0](this:0xb400007452ad1258,id:275,api:2,p:-1,c:-1) onDestructor()
+10-23 10:16:07.960   833   833 D OppoExLayer: ~Layer() sequence=2231, name=Splash Screen in.ashokkumar.brainverse#0@0xb400007455c8a000
+10-23 10:16:07.961  1631  4967 I InputDispatcher: Window went away: com.oppo.launcher/com.oppo.launcher.Launcher#0
+10-23 10:16:07.966  2496  2496 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@4ce5ac4, this = DecorView@31c8dad[Launcher]
+10-23 10:16:07.975  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:07.992  2496  2745 I chatty  : uid=10105(com.oppo.launcher) launcher-loader identical 4 lines
+10-23 10:16:07.995  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 10:16:07.999  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:08.003  2496  2496 I chatty  : uid=10105(com.oppo.launcher) identical 24 lines
+10-23 10:16:08.003  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:08.005  4188  4188 V PhoneWindow: DecorView setVisiblity: visibility = 8, Parent = android.view.ViewRootImpl@91dbee7, this = DecorView@f7eda94[InputMethod]
+10-23 10:16:08.007   833  1777 I BufferQueueProducer: [StatusBar#0](this:0xb400007465d84c58,id:7,api:1,p:2064,c:833) queueBuffer: fps=0.97 dur=2066.28 max=1602.64 min=463.64
+10-23 10:16:08.008  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:08.009  1631  3145 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:08.009  1631  3145 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:08.010  1631  3145 D ColorAppListInterceptManager: shouldFilterTask
+10-23 10:16:08.010  1631  3145 D ColorAppListInterceptManager: shouldFilterTask::packageName = in.ashokkumar.brainverse
+10-23 10:16:08.013  1631  4963 V ColorZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2}
+10-23 10:16:08.013  1631  4963 I ColorAppSwitchManagerService:  handleAppVisible , r = ActivityRecord{cd665d1 u0 com.oppo.launcher/.Launcher t2}
+10-23 10:16:08.014  1631  4963 I OplusMirageDisplayManagerService: onAnimationFinished:
+10-23 10:16:08.014  1631  4963 V ColorZoomWindowManagerService: onAnimationFinished:  r = ActivityRecord{76dfe20 u0 in.ashokkumar.brainverse/.MainActivity t-1 f}}
+10-23 10:16:08.014  1631  4963 I OplusMirageDisplayManagerService: onAnimationFinished:
+10-23 10:16:08.014  1631  1892 W ORMS_CORE: Unknown request!!!
+10-23 10:16:08.014  2496  2496 I chatty  : uid=10105(com.oppo.launcher) identical 1 line
+10-23 10:16:08.017  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 10:16:08.019   821   871 I mtkpower@impl: [setMode] type:5, enabled:0
+10-23 10:16:08.019   821   925 I libPowerHal: [perfLockRel] hdl:2283, idx:1
+10-23 10:16:08.019   821   925 I libPowerHal: [PD] scn:1 hdl:2283 hint:11 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.020   821   870 I mtkpower@impl: [mtkPowerHint] hint:21, hold:6000, ext:30, ext_hold:35000
+10-23 10:16:08.020   821   925 I libPowerHal: [perfLockRel] hdl:2293, idx:4
+10-23 10:16:08.020   821   925 I libPowerHal: [PD] scn:4 hdl:2293 hint:22 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.021   821   925 I libPowerHal: [perfLockAcq] idx:1 hdl:2295 hint:21 pid:821 duration:6000 => ret_hdl:2295
+10-23 10:16:08.021   821   925 I libPowerHal: [PE] scn:1 hdl:2295 hint:21 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.021   821   925 I libPowerHal: [perfLockRel] hdl:2285, idx:3
+10-23 10:16:08.021   821   925 I libPowerHal: [PD] scn:3 hdl:2285 hint:21 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.022   821   925 I libPowerHal: [perfLockAcq] idx:2 hdl:2296 hint:30 pid:821 duration:35000 => ret_hdl:2296
+10-23 10:16:08.022   821   925 I libPowerHal: [PE] scn:2 hdl:2296 hint:30 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.035  1631  1668 W WindowManager: Changing focus fromnull to Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:497 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6041 com.android.server.wm.RootWindowContainer.performSurfacePlacementNoTrace:928 com.android.server.wm.RootWindowContainer.performSurfacePlacement:851 
+10-23 10:16:08.035  1631  1960 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 31, oppidx_max 31, oppidx_min 0
+10-23 10:16:08.036  1631  1668 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+10-23 10:16:08.044   833   833 E Layer   : [Surface(name=Task=2)/@0x7a4d6d3 - animation-leash#0] No local sync point found
+10-23 10:16:08.049  1631  1953 D IAtlas  : IAtlas::init CallingPid 1631
+10-23 10:16:08.050  1631  1953 D IAtlas  : IAtlas::init this 0xb400006dfb7e0060
+10-23 10:16:08.050  1082 19645 E MMListParser: open file /proc/1631/cmdline err 13
+10-23 10:16:08.050  1631  1953 D OplusSkImageProcessing: INFO:(null),quality 95
+10-23 10:16:08.047  1082  1082 W Binder:1082_4: type=1400 audit(0.0:12816): avc: denied { search } for name="1631" dev="proc" ino=2633929 scontext=u:r:atlasservice:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+10-23 10:16:08.050  1631  1953 E OplusSkImageProcessing: not in image processing list
+10-23 10:16:08.050  1631  1953 D OplusSkImageProcessing: support_flag: 0,new_quality: 95
+10-23 10:16:08.050  1631  1953 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-23 10:16:08.050  1631  1953 D system_server: ##Make: options.fQuality:95,quality:95,encoderMgr->imageprocessing_flag:0
+10-23 10:16:08.051  1631  1953 D system_server: Resolution: 720 x 1600; FLAG:0
+10-23 10:16:08.051  1631  1953 D system_server: Resolution: 720 x 1600;
+10-23 10:16:08.051  1631  1953 D system_server: support: 0
+10-23 10:16:08.061  1631  4753 I InputDispatcher: Focus entered window: Window{53637d7 u0 com.oppo.launcher/com.oppo.launcher.Launcher} in display 0
+10-23 10:16:08.063  1631  1650 D InputMethodManagerService: isSecurity: attribute.packageName=com.oppo.launcher
+10-23 10:16:08.063  1631  1650 D InputMethodManagerService: isSecurity= false (  enable=false needShow=false inBlackList=false  isExist=false )
+10-23 10:16:08.063  1631  1650 D OplusVerificationCodeController: notifyImeAttributeChanged: 64false
+10-23 10:16:08.064  4188  4188 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2404 
+10-23 10:16:08.066  4188 12955 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 0, locked = false
+10-23 10:16:08.066  4188  4188 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1552 onStartInput(EditorInfo{EditorInfo{packageName=com.oppo.launcher, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+10-23 10:16:08.066  4188  4188 I LatinInputMethodServiceBase: LatinInputMethodServiceBase.updateInputViewCoverNavigation():360 Update input view padding, isNavbarOverInputWindow=false, bottom inset=30
+10-23 10:16:08.067  4188 10001 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatusInternal():119 repeatCheckTimes = 1, locked = false
+10-23 10:16:08.081  1631  1953 W Bitmap  : Called getWidth() on a recycle()'d bitmap! This is undefined behavior!
+10-23 10:16:08.082  1631  1953 W Bitmap  : Called getHeight() on a recycle()'d bitmap! This is undefined behavior!
+10-23 10:16:08.096  1631  1953 D IAtlas  : IAtlas::init CallingPid 1631
+10-23 10:16:08.097  1631  1953 D IAtlas  : IAtlas::init this 0xb400006dfb7e0060
+10-23 10:16:08.098  1082 19645 E MMListParser: open file /proc/1631/cmdline err 13
+10-23 10:16:08.098  1631  1953 D OplusSkImageProcessing: INFO:(null),quality 95
+10-23 10:16:08.098  1631  1953 E OplusSkImageProcessing: not in image processing list
+10-23 10:16:08.095  1082  1082 W Binder:1082_4: type=1400 audit(0.0:12817): avc: denied { search } for name="1631" dev="proc" ino=2633929 scontext=u:r:atlasservice:s0 tcontext=u:r:system_server:s0 tclass=dir permissive=0
+10-23 10:16:08.098  1631  1953 D OplusSkImageProcessing: support_flag: 0,new_quality: 95
+10-23 10:16:08.098  1631  1953 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+10-23 10:16:08.098  1631  1953 D system_server: ##Make: options.fQuality:95,quality:95,encoderMgr->imageprocessing_flag:0
+10-23 10:16:08.098  1631  1953 D system_server: Resolution: 360 x 800; FLAG:0
+10-23 10:16:08.098  1631  1953 D system_server: Resolution: 360 x 800;
+10-23 10:16:08.098  1631  1953 D system_server: support: 0
+10-23 10:16:08.382  1631  1667 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{76dfe20 u0 in.ashokkumar.brainverse/.MainActivity t-1 f}}
+10-23 10:16:08.383  1631  2608 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit , info = OplusAppExitInfo = {  targetName = in.ashokkumar.brainverse hasResumingActivity = true resumingPackageName = com.oppo.launcher resumingActivityName = com.oppo.launcher.Launcher resumingWindowMode = 1 isResumingMultiApp = false isResumingFirstStart = false extension = Bundle[{taskId=2, uid=10105}]}
+10-23 10:16:08.383   821   925 I libPowerHal: [perfNotifyAppState] foreground:com.oppo.launcher, pid:2496, uid:10105
+10-23 10:16:08.383  2508  2634 I [0]DCS-BackgroundAppData: sendAppBgEvent: has no pkgName=com.oppo.launcher
+10-23 10:16:08.383  1631  6744 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = in.ashokkumar.brainverse to = com.oppo.launcher
+10-23 10:16:08.383   821   925 E UxUtility: notifyAppState error = NULL
+10-23 10:16:08.383   821   925 I TouchUtility: notifyAppState error = NULL
+10-23 10:16:08.383   821   925 I libPowerHal: [perfNotifyAppState] actName:com.oppo.launcher.Launcher !!!
+10-23 10:16:08.383   821   925 I libPowerHal: [PE] scn:299 pack:com.oppo.launcher
+10-23 10:16:08.383   821   925 I libPowerHal: [PE] com.oppo.launcher update cmd:203c000, param:100
+10-23 10:16:08.383   821   925 I libPowerHal: [PE] com.oppo.launcher update cmd:203c100, param:100
+10-23 10:16:08.384   821   925 I libPowerHal: [PE] com.oppo.launcher update cmd:203c200, param:1
+10-23 10:16:08.384   821   925 I libPowerHal: [PE] com.oppo.launcher update cmd:200c000, param:16666666
+10-23 10:16:08.384   821   925 I libPowerHal: [PE] com.oppo.launcher update cmd:200c100, param:100
+10-23 10:16:08.384   821   870 I mtkpower@impl: [notifyAppState] pc:0, in.ashokkumar.brainverse => com.oppo.launcher
+10-23 10:16:08.385  1631  2608 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter , info = OplusAppEnterInfo = {  windowMode = 1 targetName = com.oppo.launcher multiApp = false firstStart = false launchedFromPackage = null intent = Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.oppo.launcher/.Launcher (has extras) } extension = Bundle[{taskId=2, uid=10105}]}
+10-23 10:16:08.385   821   925 I libPowerHal: [perfLockAcq] idx:3 hdl:2297 hint:21 pid:821 duration:1 => ret_hdl:2297
+10-23 10:16:08.385   821   925 I libPowerHal: [PE] scn:3 hdl:2297 hint:21 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.385  2752  8931 W OppoGuardElf: ThermalControlUtils: mForegroundPkg=com.oppo.launcher
+10-23 10:16:08.385  3153 31563 D ZoomAppController: ignore onAppEnter: Invalid cvActionFlag = 0
+10-23 10:16:08.385   833  1803 W DispPerfService: set app fps fail: wrong req fps value.
+10-23 10:16:08.386   821   925 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:2297
+10-23 10:16:08.386   821   925 I libPowerHal: [perfLockRel] hdl:2297, idx:3
+10-23 10:16:08.386   821   925 I libPowerHal: [PD] scn:3 hdl:2297 hint:21 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.386   821   925 I libPowerHal: [perfLockRel] hdl:2295, idx:1
+10-23 10:16:08.386   821   925 I libPowerHal: [PD] scn:1 hdl:2295 hint:21 comm:mtkpower@1.0-se pid:821
+10-23 10:16:08.387   821   925 I libPowerHal: MTKPOWER_HINT_PROCESS_CREATE: cpu_ctrl set cpu freq: 1800000 -1 1532000 -1
+10-23 10:16:08.387   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:1000000, param:1
+10-23 10:16:08.387   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:1410000 param:0
+10-23 10:16:08.387   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:1408300 param:40
+10-23 10:16:08.388   821   925 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:1000000 param:1
+10-23 10:16:08.393  1631  4753 D AS.AudioService: getParameters() keyValuePairs:OPLUS_AUDIO_GET_FOCUS_STACK
+10-23 10:16:08.394  2752  8931 W OppoGuardElf: ThermalControllHandler: tempLevel=6,userMode=2,gameUserMode=-1,appType=-1,envTempType=0,appStates=[]
+10-23 10:16:08.397  2752  8931 W OppoGuardElf: ThermalControllHandler: tempGear=6,configItemName=common_config
+10-23 10:16:08.397  2752  5975 W OppoGuardElf: ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+10-23 10:16:08.408  3351  3351 E oiface  : packageSwitch pkg com.oppo.launcher, enter
+10-23 10:16:08.408  3351  3351 E oiface  : current package is com.oppo.launcher and pid is 2496
+10-23 10:16:08.417  3351  3375 E oiface  : Average freq 1968750 for 0s.
+10-23 10:16:08.418  3351  3375 E oiface  : Average freq 1771875 for 0s.
+10-23 10:16:08.418  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 10:16:08.418  1631  4967 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 10:16:08.418  3351  3375 E oiface  : get gpu freq table failed
+10-23 10:16:08.421  3351  3375 E oiface  : client  not found, skipped
+10-23 10:16:08.421  3351  3375 D oiface  : forground package is com.oppo.launcher
+10-23 10:16:08.428  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 10:16:08.429  1631  3145 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 10:16:08.429  3351  3375 E oiface  : get gpu freq table failed

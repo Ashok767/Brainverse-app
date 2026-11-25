@@ -1,0 +1,526 @@
+﻿--------- beginning of main
+10-23 09:53:47.892   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+--------- beginning of system
+10-23 09:53:48.398 31752 31752 E android.youtub: Unknown bits set in runtime_flags: 0x40000000
+10-23 09:53:48.403 31752 31752 E android.youtub: Not starting debugger since process cannot load the jdwp agent.
+10-23 09:53:48.409 31752 31752 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 09:53:48.831  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:53:48.943 31752 31793 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:48.960 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:48.965 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.000 31752 31808 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.007 31752 31788 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.014 31752 31788 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.016 31752 31811 E FirebaseMessaging: Default FirebaseApp has not been initialized. Skip logging event to GA.
+10-23 09:53:49.060 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.077 31752 31797 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.121 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.126   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:53:49.127   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:53:49.147   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:53:49.148   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:53:49.171  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:53:49.219 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.394   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:53:49.736 31752 31831 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.800 31752 31839 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:49.869 31752 31752 E YT.mlplayer: setDefaultLoudnessTargetPreferenceState
+10-23 09:53:49.873 31752 31752 E YT.mlplayer: setAudioDrc(enabled=1)
+10-23 09:53:49.877 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.287 31752 31858 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.297 31752 31814 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.299 31752 31808 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.301 31752 31858 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.303 31752 31792 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.304 31752 31796 E NotificationsErrorLogge: YTN: The custom payload could not be unpacked.
+10-23 09:53:50.430 31752 31752 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: Could not resolve accountId while getting offline account items
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: axmh: Could not find direct account with account name.
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at acwc.apply(PG:331)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at aydp.apply(PG:17)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at azqi.c(PG:3)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at azqj.run(PG:45)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at veh.run(PG:7)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at azll.run(PG:44)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at vdo.run(PG:657)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at fyl.run(PG:695)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at java.lang.Thread.run(Thread.java:923)
+10-23 09:53:50.489 31752 31804 E OfflineAccountSwitcherS: 	at vfg.run(PG:61)
+10-23 09:53:50.493 31752 31887 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+10-23 09:53:50.515  1631  4845 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+10-23 09:53:50.516  1631  4845 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+10-23 09:53:50.578 31752 31887 E libc    : Access denied finding property "vendor.debug.drm.logv"
+10-23 09:53:50.579 31752 31887 E libc    : Access denied finding property "vendor.debug.drm.logv"
+10-23 09:53:50.598 31752 31887 E libc    : Access denied finding property "vendor.debug.drm.logd"
+10-23 09:53:50.598 31752 31887 E libc    : Access denied finding property "vendor.debug.drm.logv"
+10-23 09:53:50.896   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:53:50.917   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup18: Permission denied
+10-23 09:53:50.918   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup2: Permission denied
+10-23 09:53:50.920   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup16: Permission denied
+10-23 09:53:50.920   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup0: Permission denied
+10-23 09:53:50.922   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+10-23 09:53:50.923   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup14: Permission denied
+10-23 09:53:50.926   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup12: Permission denied
+10-23 09:53:50.929   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup5: Permission denied
+10-23 09:53:50.930   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+10-23 09:53:50.939   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup15: Permission denied
+10-23 09:53:50.941   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup8: Permission denied
+10-23 09:53:50.943   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup6: Permission denied
+10-23 09:53:50.944   561   565 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup11: Permission denied
+10-23 09:53:50.955  1631  1690 E BatteryStatsService: Unable to load Power Hal or power.stats HAL
+10-23 09:53:50.957 31752 31826 E CommandUtil: java.lang.IllegalStateException: Expected only one extension, saw 0
+10-23 09:53:50.957 31752 31826 E CommandUtil: java.lang.IllegalStateException: Expected only one extension, saw 0
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at baay.ap(PG:77)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at akrv.a(PG:1)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at akrv.e(PG:79)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at akrp.f(PG:1)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at akrn.h(PG:16)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at akrn.c(PG:122)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at auqy.o(PG:312)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvz.i(PG:1140)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvz.j(PG:305)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvz.n(PG:449)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvt.invokeSuspend(PG:28)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvt.invoke(PG:11)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at zak.invokeSuspend(PG:137)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at zak.invoke(PG:34)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at org.chromium.base.AndroidInfo.c(PG:15)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at bvxn.m(PG:53)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at wuf.u(PG:33)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvz.d(PG:1650)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at yvx.invokeSuspend(PG:13)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at bvvp.resumeWith(PG:11)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at bwcj.run(PG:107)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at veh.run(PG:7)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at azll.run(PG:44)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at vdo.run(PG:657)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at fyl.run(PG:695)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at java.lang.Thread.run(Thread.java:923)
+10-23 09:53:50.957 31752 31826 E CommandUtil: 	at vfg.run(PG:61)
+10-23 09:53:50.960 31752 31826 E CommandUtil: java.lang.IllegalStateException: Expected only one extension, saw 0
+10-23 09:53:50.960 31752 31826 E CommandUtil: java.lang.IllegalStateException: Expected only one extension, saw 0
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at baay.ap(PG:77)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at akrv.a(PG:1)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at akrv.e(PG:79)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at akrp.f(PG:1)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at akrn.h(PG:16)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at akrn.c(PG:122)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at auqy.o(PG:312)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvz.i(PG:1140)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvz.j(PG:305)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvz.n(PG:449)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvt.invokeSuspend(PG:28)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvt.invoke(PG:11)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at zak.invokeSuspend(PG:137)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at zak.invoke(PG:34)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at org.chromium.base.AndroidInfo.c(PG:15)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at bvxn.m(PG:53)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at wuf.u(PG:33)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvz.d(PG:1650)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at yvx.invokeSuspend(PG:13)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at bvvp.resumeWith(PG:11)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at bwcj.run(PG:107)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at veh.run(PG:7)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at azll.run(PG:44)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at vdo.run(PG:657)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at fyl.run(PG:695)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at java.lang.Thread.run(Thread.java:923)
+10-23 09:53:50.960 31752 31826 E CommandUtil: 	at vfg.run(PG:61)
+10-23 09:53:50.962   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:53:50.964   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:53:50.994  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:53:51.145 31752 31808 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:52.461  1069 31902 E FMQ     : grantorIdx must be less than 3
+10-23 09:53:52.462  1069 31902 E FMQ     : grantorIdx must be less than 3
+10-23 09:53:52.471  1069 31902 E FMQ     : grantorIdx must be less than 3
+10-23 09:53:52.486  1069  2105 E FMQ     : grantorIdx must be less than 3
+10-23 09:53:52.510   826  2294 E MMListParser: getProcessNameByPid bad param
+10-23 09:53:53.412   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:53:54.173  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:53:54.338   826  1605 E AudioFlinger: updateTrackSilentState pid : 2064, get null buffer
+10-23 09:53:54.913   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:53:56.113  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:53:56.114 31909 31909 E egram.messenge: Unknown bits set in runtime_flags: 0x40000000
+10-23 09:53:56.118 31909 31909 E egram.messenge: Not starting debugger since process cannot load the jdwp agent.
+10-23 09:53:56.125 31909 31909 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 09:53:56.328 30588 31598 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:56.379 30588 31598 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:56.389 30588 31598 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:56.408 30588 31598 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:56.415   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:53:56.424 30588 31598 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:56.539 30588 31598 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.048 31909 31909 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+10-23 09:53:57.133 31909 31949 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.182 31909 31948 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+10-23 09:53:57.558  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.576  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.604  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.609  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.622  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:57.627  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:53:58.175 31909 31963 E ion     : ioctl c0044901 failed with code -1: Invalid argument
+10-23 09:53:58.175 31909 31983 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:53:58.184 31909 31983 E EGL-gift: Cannot load register apis
+10-23 09:53:58.392 31909 31997 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:53:58.403 31909 31997 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:53:59.071  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:53:59.171  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:53:59.297   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:00.013  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:00.017  1631  4318 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+10-23 09:54:00.019  1631  4303 E OplusCustomizeRestrictionManagerService: isBiometricDisabled start
+10-23 09:54:00.799   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:01.199  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:01.234  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:02.300   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:03.580 31614 31704 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:03.802   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:03.813 31614 31637 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:04.200  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:05.250 30588 30624 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:05.261 30588 30624 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:05.304   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:06.806   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:06.814  1126  1218 E VirtualSensors: pedo minute, step_count = 0, report_count = 88 move_statust = 0 ,time_gap = 0 , step_run_count = 0 , step_walk_count = 0
+10-23 09:54:07.644  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:08.023 32023 32023 E oid.apps.photo: Unknown bits set in runtime_flags: 0x40000000
+10-23 09:54:08.030 32023 32023 E oid.apps.photo: Not starting debugger since process cannot load the jdwp agent.
+10-23 09:54:08.038 32023 32023 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 09:54:08.043 32029 32029 E .apps.nbu.file: Unknown bits set in runtime_flags: 0x40000000
+10-23 09:54:08.048 32029 32029 E .apps.nbu.file: Not starting debugger since process cannot load the jdwp agent.
+10-23 09:54:08.055 32029 32029 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 09:54:08.308   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:08.370 32029 32071 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.384 32029 32066 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.461 32029 32066 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.470 32029 32071 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.480 32029 32074 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.489 32029 32080 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.541 32029 32085 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.611 32029 32080 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.628 32029 32066 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.633 32029 32066 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.649 32023 32095 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.692 32029 32088 E .apps.nbu.file: No package ID 6b found for ID 0x6b0b0013.
+10-23 09:54:08.714 32023 32095 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.746 32023 32097 E OplusCustomizeRestrictionManager: sInstance is null, start a new sInstance
+10-23 09:54:08.750 32029 32029 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.898  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 09:54:08.907  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:08.910  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:08.919  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:08.945  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 09:54:08.958  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:09.124   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:54:09.125   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:54:09.223 32023 32106 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:09.308  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:09.311 32023 32102 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:09.316  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:09.320  2496  2496 E Launcher.Utilities: checkPackageExist Exception: android.content.pm.PackageManager$NameNotFoundException: com.coloros.assistantscreen
+10-23 09:54:09.401   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:54:09.403   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:54:09.663 32029 32079 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:09.762 32023 32102 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:09.810   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:09.862 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.044 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.054 32029 32079 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.067 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.091 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.876 32023 32115 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.941 32023 32115 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:10.981 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.106 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.288 32029 32079 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.312   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:11.341 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.396 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.425 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.688 32023 32116 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.717 32023 32124 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.870 32023 32124 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:11.963 32023 32125 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:12.814   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:13.156 20276 20300 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:13.912 30730 31120 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:14.044  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:14.316   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:14.440  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:15.418 32029 32096 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:15.459 32029 32096 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:15.502 32029 32066 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:15.523 32029 32066 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:15.657 32023 32095 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:15.681 32023 32095 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:15.818   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:17.320   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:17.659  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:17.791  3575 10771 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:18.822   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:19.173  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:54:19.559  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:20.324   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:20.443  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:20.952 30588 30610 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:20.955 30730 30749 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:21.826   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:23.329   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:24.173  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:54:24.677  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:24.831   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:26.333   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:26.840  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:27.834   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:29.133   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:54:29.137   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:54:29.172  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:54:29.184   756   987 E TetherController: MTKTEST: enter TetherController:: getTetherStats()
+10-23 09:54:29.186   756   987 E TetherController: MTKTEST: TetherController:: getTetherStats(), return
+10-23 09:54:29.336   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:30.838   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:32.340   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:32.441 31614 31637 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:32.446 31614 31637 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:33.245  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:33.842   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:34.173  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:54:34.917  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:35.344   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:36.847   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:37.554 31614 31637 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:38.349   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:39.173  3351  3351 E oiface  : Abnormal! com.oppo.launcher[com.oppo.launcher/com.oppo.launcher.Launcher#1] current fps is: 0.000000 abnormal, return 0
+10-23 09:54:39.641  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:39.851   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:40.026  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:40.051  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 09:54:40.058  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.063  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.064  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.064  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.068  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.137  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 09:54:40.146  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.166  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.167  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.167  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.167  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.167  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.167  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.167  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.168  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.170  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.170  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.170  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.171  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.171  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.171  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.171  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.199  4188  4965 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.271  2496  2496 E Launcher.BottomSearchBoxManager: sp.getBoolean = true
+10-23 09:54:40.286  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.288  2496  2496 E Launcher.Utilities: checkPackageExist Exception: android.content.pm.PackageManager$NameNotFoundException: com.coloros.assistantscreen
+10-23 09:54:40.295  2496 15441 E SQLiteLog: (284) automatic index on local_packages(is_installed)
+10-23 09:54:40.335  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.352  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.365  2496 15440 E SQLiteLog: (284) automatic index on distinct_local_packages(package_name)
+10-23 09:54:40.365  2496 15440 E SQLiteLog: (284) automatic index on ads_ordered(campaign_type)
+10-23 09:54:40.368  2496 15440 E SQLiteLog: (284) automatic index on ads_ordered(deduplication_rank)
+10-23 09:54:40.370  2496 15440 E SQLiteLog: (284) automatic index on ads_ordered(deduplication_rank)
+10-23 09:54:40.381  2496 15440 E SQLiteLog: (284) automatic index on ads_ordered(campaign_type)
+10-23 09:54:40.384  2496 15440 E SQLiteLog: (284) automatic index on ads_ordered(deduplication_rank)
+10-23 09:54:40.386  2496 15440 E SQLiteLog: (284) automatic index on ads_ordered(deduplication_rank)
+10-23 09:54:40.390  2496 15440 E SQLiteLog: (284) automatic index on last_used_apps(app_store_id)
+10-23 09:54:40.469  2496 15631 E BNCScope: Exception on context [CoroutineName(BNCScope), io.branch.search.c5$a@2d5643, cp{Cancelling}@ae3b697, Dispatchers.IO] -> java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+10-23 09:54:40.470  2496 24111 E BNCScope: Exception on context [CoroutineName(BNCScope), io.branch.search.c5$a@2d5643, cp{Cancelling}@460f084, Dispatchers.IO] -> java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+10-23 09:54:40.470  2496 31538 E BNCScope: Exception on context [CoroutineName(BNCScope), io.branch.search.c5$a@2d5643, cp{Cancelling}@a6d06d, Dispatchers.IO] -> java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+10-23 09:54:40.470  2496  2804 E BNCScope: Exception on context [CoroutineName(BNCScope), io.branch.search.c5$a@2d5643, cp{Cancelling}@bd624a2, Dispatchers.IO] -> java.lang.IllegalArgumentException: Expected URL scheme 'http' or 'https' but no colon was found
+10-23 09:54:40.511 30588 32160 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.529  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.530  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.530 30588 32160 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.530  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.534  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.547 30588 32160 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.550  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.560 30588 32160 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.726 30588 32160 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:40.939  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.940  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.940  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.940  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.942  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.943  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.943  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.943  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:40.950  2496  2496 E Launcher.BottomSearchBoxManager: sp.getBoolean = true
+10-23 09:54:41.049  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.079  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:41.084  1631  4969 E ColorZoomWindowManagerService: onConfigurationChanged rotation not changed - prevRotation: 0
+10-23 09:54:41.086  1631  4969 E ColorZoomWindowManagerService: onConfigurationChanged rotation not changed - prevRotation: 0
+10-23 09:54:41.095  2496  2496 E Launcher.DrawAppSortManagerUtil: handleAppInfoClick times=12
+10-23 09:54:41.103  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.103  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.105  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.107  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.107  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.107  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.108  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.110  1631  1668 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:41.110  1631  1668 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:41.127 32165 32165 E umar.brainvers: Unknown bits set in runtime_flags: 0x40000000
+10-23 09:54:41.130 32165 32165 E umar.brainvers: Not starting debugger since process cannot load the jdwp agent.
+10-23 09:54:41.136 32165 32165 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 09:54:41.157   821   925 E UxUtility: notifyAppState error = NULL
+10-23 09:54:41.174  2496  2496 E SimulationInteractor: tryGetAnimationPainterInstance error:com.coloros.painteranimationpanel.api.AnimPainterInstance
+10-23 09:54:41.177   833   941 E SurfaceFlinger: Permission Denial: can't access SurfaceFlinger pid=0, uid=10105
+10-23 09:54:41.184  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is true
+10-23 09:54:41.212  3351  3351 E oiface  : packageSwitch pkg in.ashokkumar.brainverse, enter
+10-23 09:54:41.212  3351  3351 E oiface  : current package is in.ashokkumar.brainverse and pid is 32165
+10-23 09:54:41.224  3351  3375 E oiface  : Average freq 938876 for 74s.
+10-23 09:54:41.224  3351  3375 E oiface  : Average freq 840426 for 74s.
+10-23 09:54:41.224  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:41.225  1631  4971 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:41.225  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:41.228  3351  3375 E oiface  : client  not found, skipped
+10-23 09:54:41.238  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:41.238  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:41.238  1631  4971 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:41.267  2496  2496 E Launcher.BottomSearchBoxManager: sp.getBoolean = true
+10-23 09:54:41.335 32165 32190 E libEGL  : Invalid file path for libcolorx-loader.so
+--------- beginning of crash
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: FATAL EXCEPTION: main
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: Process: in.ashokkumar.brainverse, PID: 32165
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{in.ashokkumar.brainverse/in.ashokkumar.brainverse.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk"],nativeLibraryDirectories=[/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/lib/arm64, /data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]]
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3643)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3903)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2328)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:255)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8212)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk"],nativeLibraryDirectories=[/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/lib/arm64, /data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]]
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3631)
+10-23 09:54:41.341 32165 32165 E AndroidRuntime: 	... 11 more
+10-23 09:54:41.412  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:41.423  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 09:54:41.475  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:41.487  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.492  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.498   833   833 E Layer   : [Surface(name=Task=2)/@0x7a4d6d3 - animation-leash#0] No local sync point found
+10-23 09:54:41.500  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:41.522  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:41.536  1082  1082 E MMListParser: open file /proc/1631/cmdline err 13
+10-23 09:54:41.539  1631  1953 E OplusSkImageProcessing: not in image processing list
+10-23 09:54:41.578  1082  1082 E MMListParser: open file /proc/1631/cmdline err 13
+10-23 09:54:41.578  1631  1953 E OplusSkImageProcessing: not in image processing list
+10-23 09:54:41.850   821   925 E UxUtility: notifyAppState error = NULL
+10-23 09:54:41.875  3351  3351 E oiface  : packageSwitch pkg com.oppo.launcher, enter
+10-23 09:54:41.876  3351  3351 E oiface  : current package is com.oppo.launcher and pid is 2496
+10-23 09:54:41.883  3351  3375 E oiface  : Average freq 1963954 for 0s.
+10-23 09:54:41.883  3351  3375 E oiface  : Average freq 1772307 for 0s.
+10-23 09:54:41.883  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:41.884  1631  3106 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:41.884  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:41.887  3351  3375 E oiface  : client  not found, skipped
+10-23 09:54:41.898  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:41.898  1631  4318 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:41.898  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:42.199  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.229  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:42.232  1631  4303 E ColorZoomWindowManagerService: onConfigurationChanged rotation not changed - prevRotation: 0
+10-23 09:54:42.234  1631  4303 E ColorZoomWindowManagerService: onConfigurationChanged rotation not changed - prevRotation: 0
+10-23 09:54:42.243  2496  2496 E Launcher.DrawAppSortManagerUtil: handleAppInfoClick times=13
+10-23 09:54:42.244  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.260  1631  1668 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:42.260  1631  1668 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:42.275 32212 32212 E umar.brainvers: Unknown bits set in runtime_flags: 0x40000000
+10-23 09:54:42.278 32212 32212 E umar.brainvers: Not starting debugger since process cannot load the jdwp agent.
+10-23 09:54:42.285 32212 32212 E RefClass: java.lang.reflect.InvocationTargetException
+10-23 09:54:42.298   821   925 E UxUtility: notifyAppState error = NULL
+10-23 09:54:42.316  2496  2496 E SimulationInteractor: tryGetAnimationPainterInstance error:com.coloros.painteranimationpanel.api.AnimPainterInstance
+10-23 09:54:42.320   833  1572 E SurfaceFlinger: Permission Denial: can't access SurfaceFlinger pid=0, uid=10105
+10-23 09:54:42.332  3351  3351 E oiface  : packageSwitch pkg in.ashokkumar.brainverse, enter
+10-23 09:54:42.333  3351  3351 E oiface  : current package is in.ashokkumar.brainverse and pid is 32212
+10-23 09:54:42.334  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is true
+10-23 09:54:42.346  3351  3375 E oiface  : Average freq 1843630 for 0s.
+10-23 09:54:42.347  3351  3375 E oiface  : Average freq 1659955 for 0s.
+10-23 09:54:42.347  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:42.347  1631  4318 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:42.347  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:42.350  3351  3375 E oiface  : client  not found, skipped
+10-23 09:54:42.360 32212 32236 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: FATAL EXCEPTION: main
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: Process: in.ashokkumar.brainverse, PID: 32212
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: java.lang.RuntimeException: Unable to instantiate activity ComponentInfo{in.ashokkumar.brainverse/in.ashokkumar.brainverse.MainActivity}: java.lang.ClassNotFoundException: Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk"],nativeLibraryDirectories=[/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/lib/arm64, /data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]]
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3643)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3903)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2328)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:255)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8212)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:632)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1049)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: Caused by: java.lang.ClassNotFoundException: Didn't find class "in.ashokkumar.brainverse.MainActivity" on path: DexPathList[[zip file "/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk"],nativeLibraryDirectories=[/data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/lib/arm64, /data/app/~~oT3S31WVflm5vuVW_7bQAg==/in.ashokkumar.brainverse-cnMYWNxG4HvJ3JvzMDOfEw==/base.apk!/lib/arm64-v8a, /system/lib64, /system/system_ext/lib64, /vendor/lib64, /odm/lib64, /my_product/lib64, /my_carrier/lib64]]
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:207)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:379)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.AppComponentFactory.instantiateActivity(AppComponentFactory.java:95)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at androidx.core.app.CoreComponentFactory.instantiateActivity(CoreComponentFactory.java:44)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.Instrumentation.newActivity(Instrumentation.java:1253)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3631)
+10-23 09:54:42.363 32212 32212 E AndroidRuntime: 	... 11 more
+10-23 09:54:42.364  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:42.365  1631  4963 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:42.366  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:42.435  2496  2496 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:42.442  2496  2496 E Launcher.NeuronSystem: call mGetRecommendedApps ok
+10-23 09:54:42.476  1631  2521 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:42.476  1631  2521 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:42.477  1631  2521 E libEGL  : Invalid file path for libcolorx-loader.so
+10-23 09:54:42.501  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:42.535  2496  2745 E Parcel  : Reading a NULL string not supported here.
+10-23 09:54:42.540  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.545  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.549  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.560  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.583  2496  2496 E Launcher.ColorBubbleTextView: mForceHideDot is false
+10-23 09:54:42.632   833   833 E Layer   : [Surface(name=Task=2)/@0x7a4d6d3 - animation-leash#0] No local sync point found
+10-23 09:54:42.633   833   833 E OppoExLayer: using cid as pid, cid=1631, name=Dim Layer for - DisplayArea.Root#0
+10-23 09:54:42.676  1082  1082 E MMListParser: open file /proc/1631/cmdline err 13
+10-23 09:54:42.688  1631  1953 E OplusSkImageProcessing: not in image processing list
+10-23 09:54:42.736  1082  1082 E MMListParser: open file /proc/1631/cmdline err 13
+10-23 09:54:42.736  1631  1953 E OplusSkImageProcessing: not in image processing list
+10-23 09:54:42.873   821   925 E UxUtility: notifyAppState error = NULL
+10-23 09:54:42.895  3351  3351 E oiface  : packageSwitch pkg com.oppo.launcher, enter
+10-23 09:54:42.895  3351  3351 E oiface  : current package is com.oppo.launcher and pid is 2496
+10-23 09:54:42.901  3351  3375 E oiface  : Average freq 1958363 for 0s.
+10-23 09:54:42.901  3351  3375 E oiface  : Average freq 1766666 for 0s.
+10-23 09:54:42.901  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:42.902  1631  4939 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:42.902  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:42.904  3351  3375 E oiface  : client  not found, skipped
+10-23 09:54:42.910  3351  3375 E oiface  : get gpu config path failed. Fallback to default.
+10-23 09:54:42.911  1631  1728 E ORMS_Platform : OplusResourceManagerPlatformUtils: readFile function exception:/sys/devices/platform/soc/5000000.qcom,kgsl-3d0/kgsl/kgsl-3d0/freq_table_mhz: open failed: ENOENT (No such file or directory)
+10-23 09:54:42.911  3351  3375 E oiface  : get gpu freq table failed
+10-23 09:54:44.135   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:45.158  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
+10-23 09:54:45.636   833  1476 E HWComposer: getDisplayedContentSample: getDisplayedContentSample failed for display 0: Unsupported (8)
+10-23 09:54:46.031  2477  2477 E OplusNecManagerHelper: com.oplus.nec.OplusNecManager.notifyOrigSignalStrengthChanged [class android.telephony.SignalStrength, int]
